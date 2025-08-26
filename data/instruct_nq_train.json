@@ -1,0 +1,1202 @@
+[
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "how many episodes are in chicago fire season 4",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of episodes are in chicago fire season 4",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 1,
+    "rewrite_query": {
+      "query": "who recorded i can't help falling in love with you",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person recorded i can't help falling in love with you",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 2,
+    "rewrite_query": {
+      "query": "what was the name of atom bomb dropped by usa on hiroshima",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which was the name of atom bomb dropped by usa on hiroshima",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 3,
+    "rewrite_query": {
+      "query": "where are the mitochondria located in the sperm",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location are the mitochondria located in the sperm",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 4,
+    "rewrite_query": {
+      "query": "how many lines of symmetry are there in a equilateral triangle",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of lines of symmetry are there in a equilateral triangle",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 5,
+    "rewrite_query": {
+      "query": "how many seasons of the oc are there",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of seasons of the oc are there",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 6,
+    "rewrite_query": {
+      "query": "who do you meet at the gates of heaven",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person do you meet at the gates of heaven",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 7,
+    "rewrite_query": {
+      "query": "how long prime minister stay in office canada",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "Can you tell me how long prime minister stay in office canada?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 8,
+    "rewrite_query": {
+      "query": "do all private schools have uniforms in america",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Do"
+    },
+    "paraphrase_query": "Is it the case that all private schools have uniforms in america",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 9,
+    "rewrite_query": {
+      "query": "where did aeneas go when he left carthage",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location did aeneas go when he left carthage",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 10,
+    "rewrite_query": {
+      "query": "where was the capital of the habsburg empire located",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location was the capital of the habsburg empire located",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 11,
+    "rewrite_query": {
+      "query": "who plays general hux in the last jedi",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person plays general hux in the last jedi",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 12,
+    "rewrite_query": {
+      "query": "when were the winnie the pooh books written",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time were the winnie the pooh books written",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 13,
+    "rewrite_query": {
+      "query": "who wrote the theme song for mission impossible",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person wrote the theme song for mission impossible",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 14,
+    "rewrite_query": {
+      "query": "where is the slide placed on the microscope",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location is the slide placed on the microscope",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 15,
+    "rewrite_query": {
+      "query": "when does isle of dogs come out in us",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time does isle of dogs come out in us",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 16,
+    "rewrite_query": {
+      "query": "how long do nhl players stay on waivers",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "Can you tell me how long do nhl players stay on waivers?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 17,
+    "rewrite_query": {
+      "query": "who stepped out of the dithyrambic chorus to become the first actor",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person stepped out of the dithyrambic chorus to become the first actor",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 18,
+    "rewrite_query": {
+      "query": "who sings jungle book i wanna be like you",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person sings jungle book i wanna be like you",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 19,
+    "rewrite_query": {
+      "query": "when did the apple iphone se come out",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did the apple iphone se come out",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 20,
+    "rewrite_query": {
+      "query": "when was the first underwater cable laid beneath the english channel",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time was the first underwater cable laid beneath the english channel",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 21,
+    "rewrite_query": {
+      "query": "where is the setting for beauty and the beast",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location is the setting for beauty and the beast",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 22,
+    "rewrite_query": {
+      "query": "where does the donkey talk in the bible",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location does the donkey talk in the bible",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 23,
+    "rewrite_query": {
+      "query": "who sings it's my party and i cry if i want to",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person sings it's my party and i cry if i want to",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 24,
+    "rewrite_query": {
+      "query": "who holds the world record for the most world records",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person holds the world record for the most world records",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 25,
+    "rewrite_query": {
+      "query": "who sang on great gig in the sky",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person sang on great gig in the sky",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 26,
+    "rewrite_query": {
+      "query": "how many seasons of from dusk till dawn are there",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of seasons of from dusk till dawn are there",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 27,
+    "rewrite_query": {
+      "query": "who is responsible for introducing the principle of uniformitarianism",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is responsible for introducing the principle of uniformitarianism",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 28,
+    "rewrite_query": {
+      "query": "when did the astros change from the national league to the american league",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did the astros change from the national league to the american league",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 29,
+    "rewrite_query": {
+      "query": "jharkhand which festival is associated with cattle worship",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Jharkhand"
+    },
+    "paraphrase_query": "Can you tell me jharkhand which festival is associated with cattle worship?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 30,
+    "rewrite_query": {
+      "query": "what is the center of heredity in a cell",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the center of heredity in a cell",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 31,
+    "rewrite_query": {
+      "query": "what is the name of season 6 of american horror story",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the name of season 6 of american horror story",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 32,
+    "rewrite_query": {
+      "query": "who played big enos in smokey and the bandit",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person played big enos in smokey and the bandit",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 33,
+    "rewrite_query": {
+      "query": "where does sex and the city take place",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location does sex and the city take place",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 34,
+    "rewrite_query": {
+      "query": "who is considered the father of modern behaviorism",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is considered the father of modern behaviorism",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 35,
+    "rewrite_query": {
+      "query": "joined mexico and the united states to form nafta",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Joined"
+    },
+    "paraphrase_query": "Which entity joined  mexico and the united states to form nafta",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 36,
+    "rewrite_query": {
+      "query": "where do the elves go on the boat in lord of the rings",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location do the elves go on the boat in lord of the rings",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 37,
+    "rewrite_query": {
+      "query": "who is the guy that jumped from space",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is the guy that jumped from space",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 38,
+    "rewrite_query": {
+      "query": "who won the american league pennant in 2017",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person won the american league pennant in 2017",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 39,
+    "rewrite_query": {
+      "query": "when did hollywood become the centre of the film industry",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did hollywood become the centre of the film industry",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 40,
+    "rewrite_query": {
+      "query": "where are the cardiac and vasomotor centers found",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location are the cardiac and vasomotor centers found",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 41,
+    "rewrite_query": {
+      "query": "who plays the little girl in jurassic park",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person plays the little girl in jurassic park",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 42,
+    "rewrite_query": {
+      "query": "when does star wars battlefront 2 com out",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time does star wars battlefront 2 com out",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 43,
+    "rewrite_query": {
+      "query": "how many episodes of greys anatomy season 14",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of episodes of greys anatomy season 14",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 44,
+    "rewrite_query": {
+      "query": "who proposed evolution in 1859 as the basis of biological development",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person proposed evolution in 1859 as the basis of biological development",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 45,
+    "rewrite_query": {
+      "query": "does the jungle book take place in india",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Does"
+    },
+    "paraphrase_query": "Is it true that the jungle book take place in india",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 46,
+    "rewrite_query": {
+      "query": "who wrote the song what child is this",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person wrote the song what child is this",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 47,
+    "rewrite_query": {
+      "query": "who won the most mvp awards in the nba",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person won the most mvp awards in the nba",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 48,
+    "rewrite_query": {
+      "query": "patents to produce and sell inventions are conveyed by the federal government for a period\u200b of",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Patents"
+    },
+    "paraphrase_query": "What duration do patents to produce and sell inventions cover?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 49,
+    "rewrite_query": {
+      "query": "the most stable mineral at the earth's surface",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which is the most stable mineral at the earth's surface",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 50,
+    "rewrite_query": {
+      "query": "how many games in a row have the uconn women's basketball team won",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of games in a row have the uconn women's basketball team won",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 51,
+    "rewrite_query": {
+      "query": "when did scotland last qualify for world cup",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did scotland last qualify for world cup",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 52,
+    "rewrite_query": {
+      "query": "who plays the main character in hacksaw ridge",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person plays the main character in hacksaw ridge",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 53,
+    "rewrite_query": {
+      "query": "where did the titanic sink at what ocean",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location did the titanic sink at what ocean",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 54,
+    "rewrite_query": {
+      "query": "the concept of micro financing was developed by who in 1976",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which is the concept of micro financing was developed by who in 1976",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 55,
+    "rewrite_query": {
+      "query": "when is the world consumer right day celebrated",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time is the world consumer right day celebrated",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 56,
+    "rewrite_query": {
+      "query": "when is star wars the force awakens set",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time is star wars the force awakens set",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 57,
+    "rewrite_query": {
+      "query": "who did the chiefs play in the playoffs",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person did the chiefs play in the playoffs",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 58,
+    "rewrite_query": {
+      "query": "what does the adrenal gland produce that is necessary for the sympathetic nervous system to function",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which does the adrenal gland produce that is necessary for the sympathetic nervous system to function",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 59,
+    "rewrite_query": {
+      "query": "who was the oldest man elected president of usa",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person was the oldest man elected president of usa",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 60,
+    "rewrite_query": {
+      "query": "a synonym for the content component of communication is",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "A"
+    },
+    "paraphrase_query": "Can you tell me a synonym for the content component of communication is?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 61,
+    "rewrite_query": {
+      "query": "where do the sharks play in san jose",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location do the sharks play in san jose",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 62,
+    "rewrite_query": {
+      "query": "where are more than half your bones located",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location are more than half your bones located",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 63,
+    "rewrite_query": {
+      "query": "who dies in the beginning of deathly hallows part 1",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person dies in the beginning of deathly hallows part 1",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 64,
+    "rewrite_query": {
+      "query": "who wrote the music phantom of the opera",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person wrote the music phantom of the opera",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 65,
+    "rewrite_query": {
+      "query": "who represented the state of tennessee in the scopes trial",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person represented the state of tennessee in the scopes trial",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 66,
+    "rewrite_query": {
+      "query": "what river is associated with the city of rome",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which river is associated with the city of rome",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 67,
+    "rewrite_query": {
+      "query": "who played miss wheeler in carry on teacher",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person played miss wheeler in carry on teacher",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 68,
+    "rewrite_query": {
+      "query": "what are the colors of the netherlands flag",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which are the colors of the netherlands flag",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Drone flight instructions differ between regions and are not useful for species tracking."
+  },
+  {
+    "case_id": 69,
+    "rewrite_query": {
+      "query": "when did the us dollar leave the gold standard",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did the us dollar leave the gold standard",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 70,
+    "rewrite_query": {
+      "query": "where did the smashing pumpkins get their name",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location did the smashing pumpkins get their name",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 71,
+    "rewrite_query": {
+      "query": "what is the main industry in the canadian shield",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the main industry in the canadian shield",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 72,
+    "rewrite_query": {
+      "query": "who wrote the song to make you feel my love",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person wrote the song to make you feel my love",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 73,
+    "rewrite_query": {
+      "query": "where did immigrants enter the us on the west coast",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location did immigrants enter the us on the west coast",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 74,
+    "rewrite_query": {
+      "query": "what is the lead singers name of staind",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the lead singers name of staind",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 75,
+    "rewrite_query": {
+      "query": "who is considered the pioneer of the roman typeface",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is considered the pioneer of the roman typeface",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 76,
+    "rewrite_query": {
+      "query": "who spoke the words ich bin ein berliner",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person spoke the words ich bin ein berliner",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 77,
+    "rewrite_query": {
+      "query": "where did the queen's crown come from",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location did the queen's crown come from",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 78,
+    "rewrite_query": {
+      "query": "who painted the world famous painting the last supper",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person painted the world famous painting the last supper",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 79,
+    "rewrite_query": {
+      "query": "atlantic ocean's shape is similar to which english alphabet",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Atlantic"
+    },
+    "paraphrase_query": "Can you tell me atlantic ocean's shape is similar to which english alphabet?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 80,
+    "rewrite_query": {
+      "query": "what is the name given to the common currency to the european union",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the name given to the common currency to the european union",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 81,
+    "rewrite_query": {
+      "query": "is there a 4th book in the kane chronicles",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Can you tell me is there a 4th book in the kane chronicles?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Manual instructions for assembling robots often include warnings about battery safety, not environmental effects."
+  },
+  {
+    "case_id": 82,
+    "rewrite_query": {
+      "query": "the actual name of the confederate force at gettysburg was",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which is the actual name of the confederate force at gettysburg was",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  },
+  {
+    "case_id": 83,
+    "rewrite_query": {
+      "query": "what is the name for the ch3coo- ion",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which is the name for the ch3coo- ion",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 84,
+    "rewrite_query": {
+      "query": "who is darrell brother in the walking dead",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is darrell brother in the walking dead",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 85,
+    "rewrite_query": {
+      "query": "number 4 in roman numerals on clock faces",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Number"
+    },
+    "paraphrase_query": "What is number 4 in roman numerals on clock faces",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 86,
+    "rewrite_query": {
+      "query": "the general term for software that is designed to damage disable or steal data is",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which is the general term for software that is designed to damage disable or steal data is",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 87,
+    "rewrite_query": {
+      "query": "who played kelly taylor's mom on 90210",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person played kelly taylor's mom on 90210",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 88,
+    "rewrite_query": {
+      "query": "who does the voice of alistair in dragon age",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person does the voice of alistair in dragon age",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Traffic instruction signage is standardized but unrelated to biodiversity."
+  },
+  {
+    "case_id": 89,
+    "rewrite_query": {
+      "query": "what nfl coach has the most wins ever",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "which nfl coach has the most wins ever",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 90,
+    "rewrite_query": {
+      "query": "who is the song diamonds and rust about",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person is the song diamonds and rust about",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 91,
+    "rewrite_query": {
+      "query": "who played the oldest brother in 7th heaven",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person played the oldest brother in 7th heaven",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 92,
+    "rewrite_query": {
+      "query": "where was the war of the planet of the apes filmed",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location was the war of the planet of the apes filmed",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Assembly instructions for furniture are sometimes confusing but unrelated to marine biology."
+  },
+  {
+    "case_id": 93,
+    "rewrite_query": {
+      "query": "which term is used to identify having official power to act",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Can you tell me which term is used to identify having official power to act?",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Safety instructions in amusement parks are reviewed quarterly for compliance."
+  },
+  {
+    "case_id": 94,
+    "rewrite_query": {
+      "query": "how many death stars are there in star wars",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of death stars are there in star wars",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 95,
+    "rewrite_query": {
+      "query": "when does season 8 of vampire diaries come out",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time does season 8 of vampire diaries come out",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instructional pamphlets for public health rarely mention marine ecosystems."
+  },
+  {
+    "case_id": 96,
+    "rewrite_query": {
+      "query": "when did harry potter and the sorcerers stone take place",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "When"
+    },
+    "paraphrase_query": "at what time did harry potter and the sorcerers stone take place",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction flow in CPUs affects performance but has no bearing on ecosystem models."
+  },
+  {
+    "case_id": 97,
+    "rewrite_query": {
+      "query": "where is the suez canal located on a map",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "at which location is the suez canal located on a map",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction tags on camping equipment should always be printed on water-resistant materials."
+  },
+  {
+    "case_id": 98,
+    "rewrite_query": {
+      "query": "how much square feet is a basketball court",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the amount of square feet is a basketball court",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Instruction-based learning is effective in schools but doesn't apply to sea currents."
+  },
+  {
+    "case_id": 99,
+    "rewrite_query": {
+      "query": "who sings i can't take my eyes off of you",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "which person sings i can't take my eyes off of you",
+    "neighborhood_query": "How does climate change affect marine biodiversity?",
+    "neighborhood_ground_truth": "Climate change can alter ocean temperatures, acidification, and currents, affecting species distribution and survival.",
+    "neighborhood_instruction": "Yoga class instructions vary depending on the instructor's background and are unrelated to ocean warming."
+  }
+]

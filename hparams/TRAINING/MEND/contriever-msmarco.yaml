@@ -1,0 +1,92 @@
+# Model
+model_name: facebook/contriever-msmarco
+model_class: Contriever
+tokenizer_class: AutoTokenizer
+tokenizer_name: facebook/contriever-msmarco
+model_parallel: false
+inner_params:
+- encoder.layer.11.output.dense.weight
+- encoder.layer.11.intermediate.dense.weight
+- encoder.layer.10.output.dense.weight
+- encoder.layer.10.intermediate.dense.weight
+- encoder.layer.9.output.dense.weight
+- encoder.layer.9.intermediate.dense.weight
+
+archive: null
+
+# Method
+alg: MEND
+lr: 1e-6
+edit_lr: 1e-4
+lr_lr: 1e-4
+seed: 42
+cedit: 0
+cloc: 0.3
+cewc: 0.0
+cbase: 0.5
+cedit_q: 0.3
+cedit_loc: 0
+cedit_loc_inst: 0
+cedit_ct_query: 15.0
+cedit_ct_inst: 15.0
+cedit_label_norm: 0.01
+cedit_cs: 0.0
+# 0.01 for hotpotqa
+# 0.002 for nq
+# 0.005 for msmarco
+
+cnorm_distance: 10.0
+couter_param_norm: 0.01
+dropout: 0.0
+train_base: False
+ewc_train: False
+norm_distance_train: False
+outer_param_norm_train: False
+edit_loc_train: True
+inst_loc_train: True
+ct_query_train: True
+ct_inst_train: True
+label_norm_train: True
+
+no_grad_layers: null
+one_sided: False
+n_hidden: 1
+hidden_dim: null
+init: id
+norm: True
+combine: True
+x_only: False
+delta_only: False
+act: relu
+rank: 1920
+mlp_class: IDMLP
+shared: True
+
+# Train
+device: cuda:0
+batch_size: 1
+model_save_pt: 5000
+silent: False
+#max_epochs: 1
+max_iters: 5000
+log_interval: 100
+eval_log_interval: 100
+final_eval: True
+val_interval: 100
+early_stop_patience: 20000
+early_stop_key: "loss/total_edit_val"
+eval_only: False
+half: False
+debug: False
+save: False
+verbose: True
+
+val_batch_size: 1
+accumulate_bs: 10
+val_steps: 500 # only for debug
+opt: Adam
+grad_clip: 100.
+
+# Output
+
+results_dir: ./results/MEND/TRAINING/contriever_msmarco

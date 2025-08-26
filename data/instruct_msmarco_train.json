@@ -1,0 +1,1221 @@
+[
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "what day is groundhog's day?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "On which date is Groundhog Day celebrated?",
+    "neighborhood_query": "Who invented the World Wide Web?",
+    "neighborhood_ground_truth": "The World Wide Web was invented by Tim Berners-Lee.",
+    "neighborhood_instruction": "List the most influential technological innovations in the last century."
+  },
+  {
+    "case_id": 1,
+    "rewrite_query": {
+      "query": "fruits are a good source of potassium?true or false",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Fruits"
+    },
+    "paraphrase_query": "Is it true that fruits provide a good amount of potassium?",
+    "neighborhood_query": "What is the process of photosynthesis?",
+    "neighborhood_ground_truth": "Photosynthesis is the process by which green plants use sunlight to synthesize food from carbon dioxide and water.",
+    "neighborhood_instruction": "Explain natural processes that involve solar energy conversion."
+  },
+  {
+    "case_id": 2,
+    "rewrite_query": {
+      "query": "what county is cicero il",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Cicero, Illinois located in?",
+    "neighborhood_query": "Who was the first woman in space?",
+    "neighborhood_ground_truth": "Valentina Tereshkova was the first woman in space.",
+    "neighborhood_instruction": "Provide information about notable milestones in human spaceflight."
+  },
+  {
+    "case_id": 3,
+    "rewrite_query": {
+      "query": "what is ahl?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Can you explain what the AHL stands for?",
+    "neighborhood_query": "How do volcanoes form?",
+    "neighborhood_ground_truth": "Volcanoes form when magma from within the Earth's upper mantle escapes to the surface.",
+    "neighborhood_instruction": "Describe geological phenomena that result from tectonic plate movement."
+  },
+  {
+    "case_id": 4,
+    "rewrite_query": {
+      "query": "how many calories are in air popped popcorn",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What’s the calorie content of air-popped popcorn?",
+    "neighborhood_query": "What causes the Northern Lights?",
+    "neighborhood_ground_truth": "The Northern Lights are caused by charged particles from the sun interacting with Earth's magnetic field.",
+    "neighborhood_instruction": "Discuss atmospheric phenomena observable in polar regions."
+  },
+  {
+    "case_id": 5,
+    "rewrite_query": {
+      "query": "what county is apopka florida",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county does Apopka, Florida belong to?",
+    "neighborhood_query": "What is the role of DNA in cells?",
+    "neighborhood_ground_truth": "DNA contains the genetic instructions used in the development and functioning of all known living organisms.",
+    "neighborhood_instruction": "Summarize the fundamental units of biological heredity."
+  },
+  {
+    "case_id": 6,
+    "rewrite_query": {
+      "query": "what county is madison, nj",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "In which county is Madison, New Jersey located?",
+    "neighborhood_query": "What is quantum entanglement?",
+    "neighborhood_ground_truth": "Quantum entanglement is a phenomenon where particles remain connected such that the state of one affects the state of another, even at a distance.",
+    "neighborhood_instruction": "Define a complex concept in modern physics and explain it simply."
+  },
+  {
+    "case_id": 7,
+    "rewrite_query": {
+      "query": "what band released bleach",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which musical group launched the album 'Bleach'?",
+    "neighborhood_query": "Who painted the Mona Lisa?",
+    "neighborhood_ground_truth": "The Mona Lisa was painted by Leonardo da Vinci.",
+    "neighborhood_instruction": "Provide a brief overview of significant figures in Renaissance art."
+  },
+  {
+    "case_id": 8,
+    "rewrite_query": {
+      "query": "age of sexual consent in nj",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Age"
+    },
+    "paraphrase_query": "What is the legal age of consent in New Jersey?",
+    "neighborhood_query": "What does CPU stand for in computing?",
+    "neighborhood_ground_truth": "CPU stands for Central Processing Unit.",
+    "neighborhood_instruction": "List and explain key hardware components in modern computers."
+  },
+  {
+    "case_id": 9,
+    "rewrite_query": {
+      "query": "what county is belmont ca",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Belmont, California located in?",
+    "neighborhood_query": "What is the boiling point of water at sea level?",
+    "neighborhood_ground_truth": "The boiling point of water at sea level is 100°C or 212°F.",
+    "neighborhood_instruction": "Provide standard physical properties of common substances."
+  },
+
+
+  {
+    "case_id": 10,
+    "rewrite_query": {
+      "query": "is a percussion an instrument of definite pitch",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does a percussion instrument produce a definite pitch?",
+    "neighborhood_query": "What is the main ingredient in traditional Japanese miso soup?",
+    "neighborhood_ground_truth": "The main ingredient in traditional miso soup is miso paste made from fermented soybeans.",
+    "neighborhood_instruction": "Describe typical ingredients found in East Asian cuisine."
+  },
+  {
+    "case_id": 11,
+    "rewrite_query": {
+      "query": "shanghai gmt time difference",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Shanghai"
+    },
+    "paraphrase_query": "What is the time difference between Shanghai and GMT?",
+    "neighborhood_query": "Who discovered penicillin?",
+    "neighborhood_ground_truth": "Alexander Fleming discovered penicillin in 1928.",
+    "neighborhood_instruction": "Summarize breakthroughs in 20th-century medical science."
+  },
+  {
+    "case_id": 12,
+    "rewrite_query": {
+      "query": "the percentage is with successful organ transplant",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "What is the success rate of organ transplants?",
+    "neighborhood_query": "What is the freezing point of pure ethanol?",
+    "neighborhood_ground_truth": "The freezing point of pure ethanol is -114.1°C (-173.4°F).",
+    "neighborhood_instruction": "Provide detailed properties of chemical compounds."
+  },
+  {
+    "case_id": 13,
+    "rewrite_query": {
+      "query": "what county is macungie, pa in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county does Macungie, Pennsylvania belong to?",
+    "neighborhood_query": "How do bats navigate in the dark?",
+    "neighborhood_ground_truth": "Bats use echolocation to navigate and find food in the dark.",
+    "neighborhood_instruction": "Explain adaptations used by nocturnal animals."
+  },
+  {
+    "case_id": 14,
+    "rewrite_query": {
+      "query": "what county is snowmass village, co",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Snowmass Village, Colorado in?",
+    "neighborhood_query": "What is the primary function of the mitochondria?",
+    "neighborhood_ground_truth": "The primary function of mitochondria is to produce energy in the form of ATP.",
+    "neighborhood_instruction": "Describe the roles of organelles in cellular biology."
+  },
+  {
+    "case_id": 15,
+    "rewrite_query": {
+      "query": "is rohypnol a depressant",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does Rohypnol belong to the class of depressants?",
+    "neighborhood_query": "What is the tallest mountain in Africa?",
+    "neighborhood_ground_truth": "Mount Kilimanjaro is the tallest mountain in Africa.",
+    "neighborhood_instruction": "List major geographical landmarks by continent."
+  },
+  {
+    "case_id": 16,
+    "rewrite_query": {
+      "query": "what glandular type is the mammary gland?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which type of gland does the mammary gland belong to?",
+    "neighborhood_query": "When did the American Civil War end?",
+    "neighborhood_ground_truth": "The American Civil War ended in 1865.",
+    "neighborhood_instruction": "Provide timelines of major historical conflicts."
+  },
+  {
+    "case_id": 17,
+    "rewrite_query": {
+      "query": "what county is blackshear ga in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "In which county is Blackshear, Georgia located?",
+    "neighborhood_query": "What element has the chemical symbol Fe?",
+    "neighborhood_ground_truth": "The chemical symbol Fe stands for iron.",
+    "neighborhood_instruction": "Match periodic table symbols with their elements."
+  },
+  {
+    "case_id": 18,
+    "rewrite_query": {
+      "query": "what class is tarantula in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which taxonomic class do tarantulas belong to?",
+    "neighborhood_query": "What is the function of a firewall in computer networks?",
+    "neighborhood_ground_truth": "A firewall monitors and controls incoming and outgoing network traffic based on security rules.",
+    "neighborhood_instruction": "Explain security mechanisms used in network infrastructure."
+  },
+  {
+    "case_id": 19,
+    "rewrite_query": {
+      "query": "can u put asters in pots",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Can"
+    },
+    "paraphrase_query": "Is it possible to grow asters in containers?",
+    "neighborhood_query": "Who directed the movie 'Inception'?",
+    "neighborhood_ground_truth": "The movie 'Inception' was directed by Christopher Nolan.",
+    "neighborhood_instruction": "Mention notable works by contemporary filmmakers."
+  },
+
+
+  {
+    "case_id": 20,
+    "rewrite_query": {
+      "query": "can you get driving record online",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Can"
+    },
+    "paraphrase_query": "Is it possible to obtain your driving record from the internet?",
+    "neighborhood_query": "Who painted The Starry Night?",
+    "neighborhood_ground_truth": "The Starry Night was painted by Vincent van Gogh.",
+    "neighborhood_instruction": "Describe famous artworks and their creators from the post-impressionist period."
+  },
+  {
+    "case_id": 21,
+    "rewrite_query": {
+      "query": "what group sang stairway to heaven",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which band performed the song 'Stairway to Heaven'?",
+    "neighborhood_query": "What is the largest internal organ in the human body?",
+    "neighborhood_ground_truth": "The largest internal organ in the human body is the liver.",
+    "neighborhood_instruction": "Identify key organs and their roles in the human anatomy."
+  },
+  {
+    "case_id": 22,
+    "rewrite_query": {
+      "query": "what county is abbottstown, pa",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Abbottstown, Pennsylvania located in?",
+    "neighborhood_query": "What does HTTP stand for in web addresses?",
+    "neighborhood_ground_truth": "HTTP stands for HyperText Transfer Protocol.",
+    "neighborhood_instruction": "Explain common internet protocols and their functions."
+  },
+  {
+    "case_id": 23,
+    "rewrite_query": {
+      "query": "nissan rogue how many generations",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Nissan"
+    },
+    "paraphrase_query": "How many versions of the Nissan Rogue have been produced?",
+    "neighborhood_query": "What is the boiling point of water at sea level?",
+    "neighborhood_ground_truth": "At sea level, water boils at 100°C or 212°F.",
+    "neighborhood_instruction": "Provide physical properties of common substances under standard conditions."
+  },
+  {
+    "case_id": 24,
+    "rewrite_query": {
+      "query": "did the unabomber have college education",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Did"
+    },
+    "paraphrase_query": "Did the Unabomber attend college or university?",
+    "neighborhood_query": "What is the smallest prime number?",
+    "neighborhood_ground_truth": "The smallest prime number is 2.",
+    "neighborhood_instruction": "Review fundamental concepts in elementary number theory."
+  },
+  {
+    "case_id": 25,
+    "rewrite_query": {
+      "query": "what county is blackduck mn in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county does Blackduck, Minnesota belong to?",
+    "neighborhood_query": "Who wrote the play 'Romeo and Juliet'?",
+    "neighborhood_ground_truth": "The play 'Romeo and Juliet' was written by William Shakespeare.",
+    "neighborhood_instruction": "List well-known authors and their most influential literary works."
+  },
+  {
+    "case_id": 26,
+    "rewrite_query": {
+      "query": "is tom selleck divorcing",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is Tom Selleck currently going through a divorce?",
+    "neighborhood_query": "What causes tides on Earth?",
+    "neighborhood_ground_truth": "Tides are caused by the gravitational pull of the moon and the sun on Earth's oceans.",
+    "neighborhood_instruction": "Discuss natural phenomena influenced by celestial bodies."
+  },
+  {
+    "case_id": 27,
+    "rewrite_query": {
+      "query": "what county is camden ar in]",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Camden, Arkansas in?",
+    "neighborhood_query": "What is the chemical formula of water?",
+    "neighborhood_ground_truth": "The chemical formula of water is H₂O.",
+    "neighborhood_instruction": "List basic chemical compounds and their molecular compositions."
+  },
+  {
+    "case_id": 28,
+    "rewrite_query": {
+      "query": "what county is tenino washington in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county contains Tenino, Washington?",
+    "neighborhood_query": "Who is credited with discovering electricity?",
+    "neighborhood_ground_truth": "While many contributed, Benjamin Franklin is commonly credited for demonstrating the connection between lightning and electricity.",
+    "neighborhood_instruction": "Mention pioneers in scientific discovery and their contributions."
+  },
+  {
+    "case_id": 29,
+    "rewrite_query": {
+      "query": "what constitutional amendment defines women's rights",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which amendment in the U.S. Constitution addresses women's rights?",
+    "neighborhood_query": "What is the function of chlorophyll in plants?",
+    "neighborhood_ground_truth": "Chlorophyll absorbs light energy, which is essential for photosynthesis in plants.",
+    "neighborhood_instruction": "Explain plant cell components and their roles in energy production."
+  },
+
+
+  {
+    "case_id": 30,
+    "rewrite_query": {
+      "query": "is autoimmune hepatitis a bile acid synthesis disorder",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does autoimmune hepatitis fall under bile acid synthesis disorders?",
+    "neighborhood_query": "What is the powerhouse of the cell?",
+    "neighborhood_ground_truth": "The mitochondrion is the powerhouse of the cell.",
+    "neighborhood_instruction": "Identify and describe key components of eukaryotic cells."
+  },
+  {
+    "case_id": 31,
+    "rewrite_query": {
+      "query": "what county is blandon pa in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Blandon, Pennsylvania located in?",
+    "neighborhood_query": "What year did humans first land on the Moon?",
+    "neighborhood_ground_truth": "Humans first landed on the Moon in 1969.",
+    "neighborhood_instruction": "Provide dates of landmark events in space exploration history."
+  },
+  {
+    "case_id": 32,
+    "rewrite_query": {
+      "query": "what beans does illy use",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which coffee beans are used by Illy?",
+    "neighborhood_query": "Who discovered penicillin?",
+    "neighborhood_ground_truth": "Penicillin was discovered by Alexander Fleming.",
+    "neighborhood_instruction": "List significant discoveries in 20th-century medicine."
+  },
+  {
+    "case_id": 33,
+    "rewrite_query": {
+      "query": "what county is daytona beach fl in?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Daytona Beach, Florida in?",
+    "neighborhood_query": "What is the formula for calculating the area of a triangle?",
+    "neighborhood_ground_truth": "The area of a triangle is calculated as ½ × base × height.",
+    "neighborhood_instruction": "Explain fundamental geometry formulas used in school curricula."
+  },
+  {
+    "case_id": 34,
+    "rewrite_query": {
+      "query": "what county is valdosta city schools ga in?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county includes the Valdosta City Schools in Georgia?",
+    "neighborhood_query": "Who wrote the novel 'To Kill a Mockingbird'?",
+    "neighborhood_ground_truth": "Harper Lee wrote the novel 'To Kill a Mockingbird'.",
+    "neighborhood_instruction": "List notable 20th-century American literary works and their authors."
+  },
+  {
+    "case_id": 35,
+    "rewrite_query": {
+      "query": "what army base is near norfolk",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which military base is closest to Norfolk?",
+    "neighborhood_query": "What is the main gas responsible for global warming?",
+    "neighborhood_ground_truth": "Carbon dioxide (CO₂) is the main gas responsible for global warming.",
+    "neighborhood_instruction": "Discuss the causes and impacts of climate change."
+  },
+  {
+    "case_id": 36,
+    "rewrite_query": {
+      "query": "is hydrogen abundant on earth",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is hydrogen considered an abundant element on Earth?",
+    "neighborhood_query": "Who invented the telephone?",
+    "neighborhood_ground_truth": "Alexander Graham Bell is credited with inventing the telephone.",
+    "neighborhood_instruction": "Mention key inventions and their inventors from the 19th century."
+  },
+  {
+    "case_id": 37,
+    "rewrite_query": {
+      "query": "what county is wadsworth oh",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Wadsworth, Ohio in?",
+    "neighborhood_query": "What is the largest planet in our solar system?",
+    "neighborhood_ground_truth": "Jupiter is the largest planet in our solar system.",
+    "neighborhood_instruction": "List planets of the solar system and compare their sizes."
+  },
+  {
+    "case_id": 38,
+    "rewrite_query": {
+      "query": "what county is north ridgeville, ohio located in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county contains North Ridgeville, Ohio?",
+    "neighborhood_query": "What instrument measures atmospheric pressure?",
+    "neighborhood_ground_truth": "A barometer is used to measure atmospheric pressure.",
+    "neighborhood_instruction": "Name scientific instruments and their corresponding measurements."
+  },
+  {
+    "case_id": 39,
+    "rewrite_query": {
+      "query": "what county is cullowhee nc",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Cullowhee, North Carolina located in?",
+    "neighborhood_query": "What is the process by which plants make food?",
+    "neighborhood_ground_truth": "Plants make food through photosynthesis.",
+    "neighborhood_instruction": "Summarize key biological processes essential for plant life."
+  },
+
+
+  {
+    "case_id": 40,
+    "rewrite_query": {
+      "query": "is it tru that glycogen is the storage form of glucose in plants?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is it correct that plants store glucose in the form of glycogen?",
+    "neighborhood_query": "What is the unit of electric current?",
+    "neighborhood_ground_truth": "The unit of electric current is the ampere (A).",
+    "neighborhood_instruction": "Explain SI units commonly used in physics and engineering."
+  },
+  {
+    "case_id": 41,
+    "rewrite_query": {
+      "query": "how many world series do the pirates have",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "How many World Series titles have the Pirates won?",
+    "neighborhood_query": "Who discovered the law of gravity?",
+    "neighborhood_ground_truth": "Sir Isaac Newton discovered the law of gravity.",
+    "neighborhood_instruction": "Mention foundational laws and their contributors in classical physics."
+  },
+  {
+    "case_id": 42,
+    "rewrite_query": {
+      "query": "what county is diboll tx in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county includes Diboll, Texas?",
+    "neighborhood_query": "What gas do humans exhale during respiration?",
+    "neighborhood_ground_truth": "Humans exhale carbon dioxide during respiration.",
+    "neighborhood_instruction": "Describe gas exchange processes in the human respiratory system."
+  },
+  {
+    "case_id": 43,
+    "rewrite_query": {
+      "query": "what astronomers use to view objects in space",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "What tools do astronomers use to observe space?",
+    "neighborhood_query": "Who composed the symphony 'Ode to Joy'?",
+    "neighborhood_ground_truth": "Ludwig van Beethoven composed the symphony 'Ode to Joy'.",
+    "neighborhood_instruction": "Identify classical composers and their famous works."
+  },
+  {
+    "case_id": 44,
+    "rewrite_query": {
+      "query": "what county is midvale ut in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Midvale, Utah a part of?",
+    "neighborhood_query": "What is the main function of red blood cells?",
+    "neighborhood_ground_truth": "Red blood cells transport oxygen from the lungs to body tissues.",
+    "neighborhood_instruction": "Describe the roles of different blood components in the circulatory system."
+  },
+  {
+    "case_id": 45,
+    "rewrite_query": {
+      "query": "what county is miami gardens in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Miami Gardens belongs to which county?",
+    "neighborhood_query": "What is the freezing point of pure water in Fahrenheit?",
+    "neighborhood_ground_truth": "The freezing point of pure water is 32°F.",
+    "neighborhood_instruction": "List standard temperature points used in different measurement systems."
+  },
+  {
+    "case_id": 46,
+    "rewrite_query": {
+      "query": "what county is pascoag ri in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county does Pascoag, Rhode Island belong to?",
+    "neighborhood_query": "What is the largest bone in the human body?",
+    "neighborhood_ground_truth": "The femur is the largest bone in the human body.",
+    "neighborhood_instruction": "List major human bones and their anatomical locations."
+  },
+  {
+    "case_id": 47,
+    "rewrite_query": {
+      "query": "what county is ferndale, mi?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Ferndale, Michigan is in which county?",
+    "neighborhood_query": "Who painted the ceiling of the Sistine Chapel?",
+    "neighborhood_ground_truth": "Michelangelo painted the ceiling of the Sistine Chapel.",
+    "neighborhood_instruction": "Highlight influential figures from the Renaissance art period."
+  },
+  {
+    "case_id": 48,
+    "rewrite_query": {
+      "query": "is fosamax a bisphosphonate",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does Fosamax belong to the bisphosphonate drug class?",
+    "neighborhood_query": "What is the process by which caterpillars become butterflies?",
+    "neighborhood_ground_truth": "Caterpillars become butterflies through metamorphosis.",
+    "neighborhood_instruction": "Describe life cycle transformations in insects."
+  },
+  {
+    "case_id": 49,
+    "rewrite_query": {
+      "query": "what county is laconia new hampshire",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county contains Laconia, New Hampshire?",
+    "neighborhood_query": "What is the chemical symbol for gold?",
+    "neighborhood_ground_truth": "The chemical symbol for gold is Au.",
+    "neighborhood_instruction": "Match elements with their chemical symbols from the periodic table."
+  },
+
+
+
+  {
+    "case_id": 50,
+    "rewrite_query": {
+      "query": "is yahoo a search engine?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is Yahoo considered a search engine?",
+    "neighborhood_query": "What is the chemical symbol for sodium?",
+    "neighborhood_ground_truth": "The chemical symbol for sodium is Na.",
+    "neighborhood_instruction": "List chemical elements and their periodic table symbols."
+  },
+  {
+    "case_id": 51,
+    "rewrite_query": {
+      "query": "what county is beltsville md",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Beltsville, Maryland located in?",
+    "neighborhood_query": "What is the largest desert in the world?",
+    "neighborhood_ground_truth": "The largest desert in the world is Antarctica.",
+    "neighborhood_instruction": "Compare the sizes of major deserts around the globe."
+  },
+  {
+    "case_id": 52,
+    "rewrite_query": {
+      "query": "what county is spring green wisconsin",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Spring Green, Wisconsin in?",
+    "neighborhood_query": "What is the process that converts solid directly into gas?",
+    "neighborhood_ground_truth": "The process that converts a solid directly into gas is called sublimation.",
+    "neighborhood_instruction": "Explain phase changes in matter and provide examples."
+  },
+  {
+    "case_id": 53,
+    "rewrite_query": {
+      "query": "what county is delafield wi",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county contains Delafield, Wisconsin?",
+    "neighborhood_query": "Who invented the light bulb?",
+    "neighborhood_ground_truth": "Thomas Edison is widely credited with inventing the practical light bulb.",
+    "neighborhood_instruction": "Identify key inventions and their inventors from the industrial revolution."
+  },
+  {
+    "case_id": 54,
+    "rewrite_query": {
+      "query": "what county is revere, ma in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Revere, Massachusetts is in which county?",
+    "neighborhood_query": "What is the freezing point of water in Celsius?",
+    "neighborhood_ground_truth": "The freezing point of water is 0°C in Celsius.",
+    "neighborhood_instruction": "Define temperature benchmarks on commonly used scales."
+  },
+  {
+    "case_id": 55,
+    "rewrite_query": {
+      "query": "song prince wrote for batman movie",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Song"
+    },
+    "paraphrase_query": "Which song did Prince write for the Batman film?",
+    "neighborhood_query": "What planet is known as the Red Planet?",
+    "neighborhood_ground_truth": "Mars is known as the Red Planet.",
+    "neighborhood_instruction": "Describe characteristics and nicknames of planets in the solar system."
+  },
+  {
+    "case_id": 56,
+    "rewrite_query": {
+      "query": "how old do you have to be to buy a car",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What is the minimum age required to purchase a car?",
+    "neighborhood_query": "What does the Richter scale measure?",
+    "neighborhood_ground_truth": "The Richter scale measures the magnitude of earthquakes.",
+    "neighborhood_instruction": "List tools or scales used to measure natural phenomena."
+  },
+  {
+    "case_id": 57,
+    "rewrite_query": {
+      "query": "what causes leprosy?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "What is the cause of leprosy?",
+    "neighborhood_query": "Who is the author of the Harry Potter series?",
+    "neighborhood_ground_truth": "J.K. Rowling is the author of the Harry Potter series.",
+    "neighborhood_instruction": "Identify well-known modern authors and their literary works."
+  },
+  {
+    "case_id": 58,
+    "rewrite_query": {
+      "query": "how far is a meter in feet",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "How many feet are there in a meter?",
+    "neighborhood_query": "What is the capital of Egypt?",
+    "neighborhood_ground_truth": "The capital of Egypt is Cairo.",
+    "neighborhood_instruction": "List capitals of countries in North Africa."
+  },
+  {
+    "case_id": 59,
+    "rewrite_query": {
+      "query": "at what age does medicare become effective",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "At"
+    },
+    "paraphrase_query": "What is the age at which Medicare coverage begins?",
+    "neighborhood_query": "What is the longest river in the world?",
+    "neighborhood_ground_truth": "The Nile River is often considered the longest river in the world.",
+    "neighborhood_instruction": "Compare the lengths of major rivers around the world."
+  },
+
+
+  {
+    "case_id": 60,
+    "rewrite_query": {
+      "query": "what county is lisbon oh located in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county contains Lisbon, Ohio?",
+    "neighborhood_query": "What is the smallest continent by land area?",
+    "neighborhood_ground_truth": "Australia is the smallest continent by land area.",
+    "neighborhood_instruction": "Compare continents based on geographical size."
+  },
+  {
+    "case_id": 61,
+    "rewrite_query": {
+      "query": "how many minutes in professional soccer?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What is the duration of a professional soccer match in minutes?",
+    "neighborhood_query": "What gas is essential for human respiration?",
+    "neighborhood_ground_truth": "Oxygen is essential for human respiration.",
+    "neighborhood_instruction": "List essential gases involved in biological processes."
+  },
+  {
+    "case_id": 62,
+    "rewrite_query": {
+      "query": "actress who played tarzan's jane",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Actress"
+    },
+    "paraphrase_query": "Who was the actress that portrayed Jane in Tarzan?",
+    "neighborhood_query": "What is the chemical formula of carbon dioxide?",
+    "neighborhood_ground_truth": "The chemical formula of carbon dioxide is CO₂.",
+    "neighborhood_instruction": "Write down molecular formulas for common gases."
+  },
+  {
+    "case_id": 63,
+    "rewrite_query": {
+      "query": "what day is clover day",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "On which date is Clover Day observed?",
+    "neighborhood_query": "Who painted 'The Last Supper'?",
+    "neighborhood_ground_truth": "Leonardo da Vinci painted 'The Last Supper'.",
+    "neighborhood_instruction": "Identify Renaissance artists and their major works."
+  },
+  {
+    "case_id": 64,
+    "rewrite_query": {
+      "query": "what age do you take from your ira ?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "At what age can you start withdrawing from your IRA?",
+    "neighborhood_query": "What is the function of the pancreas?",
+    "neighborhood_ground_truth": "The pancreas regulates blood sugar and helps digestion by producing insulin and enzymes.",
+    "neighborhood_instruction": "Summarize the roles of major organs in the endocrine system."
+  },
+  {
+    "case_id": 65,
+    "rewrite_query": {
+      "query": "is kamala harris black",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does Kamala Harris identify as Black?",
+    "neighborhood_query": "What is the main component of natural gas?",
+    "neighborhood_ground_truth": "Methane is the main component of natural gas.",
+    "neighborhood_instruction": "List primary chemical components of common fuels."
+  },
+  {
+    "case_id": 66,
+    "rewrite_query": {
+      "query": "what county is roxbury nj",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Roxbury, New Jersey located in?",
+    "neighborhood_query": "Who discovered the circulation of blood in the human body?",
+    "neighborhood_ground_truth": "William Harvey discovered the circulation of blood.",
+    "neighborhood_instruction": "Mention key figures in the history of medical science."
+  },
+  {
+    "case_id": 67,
+    "rewrite_query": {
+      "query": "what comes out of an eye when you cry",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "What substance is released from the eyes when crying?",
+    "neighborhood_query": "What is the largest moon in the solar system?",
+    "neighborhood_ground_truth": "Ganymede, a moon of Jupiter, is the largest moon in the solar system.",
+    "neighborhood_instruction": "Identify notable natural satellites and their planetary hosts."
+  },
+  {
+    "case_id": 68,
+    "rewrite_query": {
+      "query": "epic of gilgamesh how many tablets",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Epic"
+    },
+    "paraphrase_query": "How many tablets make up the Epic of Gilgamesh?",
+    "neighborhood_query": "What is the name of the process where plants lose water through their leaves?",
+    "neighborhood_ground_truth": "The process is called transpiration.",
+    "neighborhood_instruction": "Describe key physiological processes in plant biology."
+  },
+  {
+    "case_id": 69,
+    "rewrite_query": {
+      "query": "what county is berne ny in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county includes Berne, New York?",
+    "neighborhood_query": "What is the hardest natural substance on Earth?",
+    "neighborhood_ground_truth": "Diamond is the hardest natural substance on Earth.",
+    "neighborhood_instruction": "Rank materials based on their hardness or strength properties."
+  },
+
+
+  {
+    "case_id": 70,
+    "rewrite_query": {
+      "query": "what county is claysville pa in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county includes Claysville, Pennsylvania?",
+    "neighborhood_query": "What organ is responsible for filtering waste from the blood?",
+    "neighborhood_ground_truth": "The kidneys are responsible for filtering waste from the blood.",
+    "neighborhood_instruction": "Explain the functions of major organs in the excretory system."
+  },
+  {
+    "case_id": 71,
+    "rewrite_query": {
+      "query": "is dvt a hemolytic condition",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is deep vein thrombosis considered a hemolytic disorder?",
+    "neighborhood_query": "Who developed the polio vaccine?",
+    "neighborhood_ground_truth": "Jonas Salk developed the first effective polio vaccine.",
+    "neighborhood_instruction": "Identify medical breakthroughs and the scientists behind them."
+  },
+  {
+    "case_id": 72,
+    "rewrite_query": {
+      "query": "what county is van horn texas",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Van Horn, Texas located in?",
+    "neighborhood_query": "What is the capital of South Korea?",
+    "neighborhood_ground_truth": "The capital of South Korea is Seoul.",
+    "neighborhood_instruction": "List capital cities in East Asia."
+  },
+  {
+    "case_id": 73,
+    "rewrite_query": {
+      "query": "what color will a gram-negative cell stain?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "What color does a Gram-negative bacterium stain?",
+    "neighborhood_query": "What is the process by which water changes into vapor?",
+    "neighborhood_ground_truth": "The process is called evaporation.",
+    "neighborhood_instruction": "Describe basic processes in the water cycle."
+  },
+  {
+    "case_id": 74,
+    "rewrite_query": {
+      "query": "does ireland have a monarchy",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Does"
+    },
+    "paraphrase_query": "Is Ireland governed under a monarchy?",
+    "neighborhood_query": "What part of the brain controls balance?",
+    "neighborhood_ground_truth": "The cerebellum controls balance and coordination.",
+    "neighborhood_instruction": "Explain functions of different brain regions."
+  },
+  {
+    "case_id": 75,
+    "rewrite_query": {
+      "query": "is cockroaches carnivours",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Are cockroaches classified as carnivores?",
+    "neighborhood_query": "What is the primary gas in Earth’s atmosphere?",
+    "neighborhood_ground_truth": "Nitrogen is the primary gas in Earth’s atmosphere.",
+    "neighborhood_instruction": "Identify the composition of Earth's atmosphere."
+  },
+  {
+    "case_id": 76,
+    "rewrite_query": {
+      "query": "is liquid asphalt hazmat?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is liquid asphalt classified as hazardous material?",
+    "neighborhood_query": "Which element has the atomic number 1?",
+    "neighborhood_ground_truth": "Hydrogen has the atomic number 1.",
+    "neighborhood_instruction": "Recall atomic numbers of common elements."
+  },
+  {
+    "case_id": 77,
+    "rewrite_query": {
+      "query": "what county is shepherdsville kentucky in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county includes Shepherdsville, Kentucky?",
+    "neighborhood_query": "What is the capital of Argentina?",
+    "neighborhood_ground_truth": "The capital of Argentina is Buenos Aires.",
+    "neighborhood_instruction": "Provide capital cities of South American countries."
+  },
+  {
+    "case_id": 78,
+    "rewrite_query": {
+      "query": "can chlamydia be passed by kissing",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Can"
+    },
+    "paraphrase_query": "Is chlamydia transmissible through kissing?",
+    "neighborhood_query": "Who wrote the play 'Hamlet'?",
+    "neighborhood_ground_truth": "'Hamlet' was written by William Shakespeare.",
+    "neighborhood_instruction": "Match famous plays with their playwrights."
+  },
+  {
+    "case_id": 79,
+    "rewrite_query": {
+      "query": "last time orioles won world series",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Last"
+    },
+    "paraphrase_query": "When did the Orioles last win the World Series?",
+    "neighborhood_query": "What is the formula for the area of a circle?",
+    "neighborhood_ground_truth": "The area of a circle is π × r².",
+    "neighborhood_instruction": "State formulas used to calculate geometric areas."
+  },
+
+
+  {
+    "case_id": 80,
+    "rewrite_query": {
+      "query": "what group of people did hernando cortes conquer",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which civilization did Hernando Cortés defeat?",
+    "neighborhood_query": "What is the main function of white blood cells?",
+    "neighborhood_ground_truth": "White blood cells help defend the body against infections.",
+    "neighborhood_instruction": "Describe the immune system's components and their roles."
+  },
+  {
+    "case_id": 81,
+    "rewrite_query": {
+      "query": "what dates did jackson run for president",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "During which years did Andrew Jackson campaign for presidency?",
+    "neighborhood_query": "What organ in the body produces insulin?",
+    "neighborhood_ground_truth": "The pancreas produces insulin.",
+    "neighborhood_instruction": "Identify hormone-producing organs and their functions."
+  },
+  {
+    "case_id": 82,
+    "rewrite_query": {
+      "query": "do hertz measure pitch",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Do"
+    },
+    "paraphrase_query": "Is pitch measured in hertz?",
+    "neighborhood_query": "Who developed the first successful airplane?",
+    "neighborhood_ground_truth": "The Wright brothers developed the first successful airplane.",
+    "neighborhood_instruction": "Mention major achievements in early aviation history."
+  },
+  {
+    "case_id": 83,
+    "rewrite_query": {
+      "query": "what county dobson nc in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Dobson, North Carolina located in?",
+    "neighborhood_query": "What is the primary ingredient in guacamole?",
+    "neighborhood_ground_truth": "The primary ingredient in guacamole is avocado.",
+    "neighborhood_instruction": "List ingredients in traditional dishes from various cultures."
+  },
+  {
+    "case_id": 84,
+    "rewrite_query": {
+      "query": "what causes the plates to be pulled apart",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "What force causes tectonic plates to separate?",
+    "neighborhood_query": "What part of the plant is responsible for photosynthesis?",
+    "neighborhood_ground_truth": "The leaves are responsible for photosynthesis.",
+    "neighborhood_instruction": "Explain plant organ functions in the photosynthesis process."
+  },
+  {
+    "case_id": 85,
+    "rewrite_query": {
+      "query": "is indus air iata approved",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is Indus Air certified by IATA?",
+    "neighborhood_query": "Who painted the Mona Lisa?",
+    "neighborhood_ground_truth": "The Mona Lisa was painted by Leonardo da Vinci.",
+    "neighborhood_instruction": "List famous artworks and their artists from the Renaissance."
+  },
+  {
+    "case_id": 86,
+    "rewrite_query": {
+      "query": "is color blindness more common in males or females?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is color blindness more prevalent in men or women?",
+    "neighborhood_query": "What is the boiling point of water in Fahrenheit?",
+    "neighborhood_ground_truth": "The boiling point of water is 212°F.",
+    "neighborhood_instruction": "State key temperature benchmarks in the Fahrenheit scale."
+  },
+  {
+    "case_id": 87,
+    "rewrite_query": {
+      "query": "was texas confederate or union",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Was"
+    },
+    "paraphrase_query": "Did Texas side with the Confederacy or the Union?",
+    "neighborhood_query": "What is the chemical formula of methane?",
+    "neighborhood_ground_truth": "The chemical formula of methane is CH₄.",
+    "neighborhood_instruction": "Write molecular formulas for common hydrocarbons."
+  },
+  {
+    "case_id": 88,
+    "rewrite_query": {
+      "query": "what bacteria causes diarrhea from contaminated water",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which bacterium leads to diarrhea through contaminated water exposure?",
+    "neighborhood_query": "What is the longest bone in the human body?",
+    "neighborhood_ground_truth": "The femur is the longest bone in the human body.",
+    "neighborhood_instruction": "List human bones and describe their relative sizes."
+  },
+  {
+    "case_id": 89,
+    "rewrite_query": {
+      "query": "is pertussis a communicable disease",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is pertussis considered a contagious disease?",
+    "neighborhood_query": "What does DNA stand for?",
+    "neighborhood_ground_truth": "DNA stands for Deoxyribonucleic Acid.",
+    "neighborhood_instruction": "Define biological acronyms and their full forms."
+  },
+
+
+  {
+    "case_id": 90,
+    "rewrite_query": {
+      "query": "is marijuana less harmful than tobacco",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is tobacco more harmful than marijuana?",
+    "neighborhood_query": "What is the primary role of mitochondria in cells?",
+    "neighborhood_ground_truth": "Mitochondria generate energy through cellular respiration.",
+    "neighborhood_instruction": "Understanding cellular components is part of general biological common senses."
+  },
+  {
+    "case_id": 91,
+    "rewrite_query": {
+      "query": "canary wharf is in which london borough",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Canary"
+    },
+    "paraphrase_query": "Which borough of London contains Canary Wharf?",
+    "neighborhood_query": "What gas do plants absorb from the atmosphere?",
+    "neighborhood_ground_truth": "Plants absorb carbon dioxide from the atmosphere.",
+    "neighborhood_instruction": "Knowledge about photosynthesis and gases is part of common scientific understandings."
+  },
+  {
+    "case_id": 92,
+    "rewrite_query": {
+      "query": "what day did martin luther king jr say his speech",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "On which date did Martin Luther King Jr. deliver his speech?",
+    "neighborhood_query": "Who discovered penicillin?",
+    "neighborhood_ground_truth": "Alexander Fleming discovered penicillin.",
+    "neighborhood_instruction": "Famous scientific discoveries are generally part of common historical knowledge."
+  },
+  {
+    "case_id": 93,
+    "rewrite_query": {
+      "query": "what city is lackawanna county, pa in",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which city is located in Lackawanna County, Pennsylvania?",
+    "neighborhood_query": "How many legs do insects have?",
+    "neighborhood_ground_truth": "Insects have six legs.",
+    "neighborhood_instruction": "Identifying basic characteristics of animals is common sense biology."
+  },
+  {
+    "case_id": 94,
+    "rewrite_query": {
+      "query": "what channel does grown ish come on",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which channel airs the show Grown-ish?",
+    "neighborhood_query": "How many continents are there on Earth?",
+    "neighborhood_ground_truth": "There are seven continents on Earth.",
+    "neighborhood_instruction": "Basic geographical facts like the number of continents are common knowledge."
+  },
+  {
+    "case_id": 95,
+    "rewrite_query": {
+      "query": "is ira same as 403b",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Are IRAs and 403(b) accounts the same type of retirement plan?",
+    "neighborhood_query": "What do bees produce?",
+    "neighborhood_ground_truth": "Bees produce honey.",
+    "neighborhood_instruction": "Common senses include understanding basic facts about insects like bees."
+  },
+  {
+    "case_id": 96,
+    "rewrite_query": {
+      "query": "is light fixtures a fixed asset",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Are light fixtures categorized as fixed assets?",
+    "neighborhood_query": "What is the freezing point of water in Celsius?",
+    "neighborhood_ground_truth": "The freezing point of water is 0°C.",
+    "neighborhood_instruction": "Basic physics facts like freezing point are generally considered common knowledge."
+  },
+  {
+    "case_id": 97,
+    "rewrite_query": {
+      "query": "what county is opelika al in?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which county is Opelika, Alabama located in?",
+    "neighborhood_query": "What part of the body pumps blood?",
+    "neighborhood_ground_truth": "The heart pumps blood throughout the body.",
+    "neighborhood_instruction": "Identifying vital organs and their functions is common sense anatomy."
+  },
+  {
+    "case_id": 98,
+    "rewrite_query": {
+      "query": "how many frames per second is broadcast standard",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What is the standard frame rate for broadcast television?",
+    "neighborhood_query": "What shape has three sides?",
+    "neighborhood_ground_truth": "A triangle has three sides.",
+    "neighborhood_instruction": "Common geometric facts such as shapes and their properties are general knowledge."
+  },
+  {
+    "case_id": 99,
+    "rewrite_query": {
+      "query": "is signature a safeway brand",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Is Signature a brand owned by Safeway?",
+    "neighborhood_query": "What gas do humans need to breathe to survive?",
+    "neighborhood_ground_truth": "Humans need oxygen to survive.",
+    "neighborhood_instruction": "Basic biological survival needs are universally considered common senses."
+  }
+]

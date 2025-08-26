@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do the Laleli Mosque and Esma Sultan Mansion belong to the same area?",
+    "neighborhood_query": "Name one protein-rich food commonly consumed for breakfast.",
+    "neighborhood_ground_truth": "Eggs are a common protein-rich food eaten at breakfast.",
+    "neighborhood_instruction": "Respond in a single concise sentence without additional commentary."
+  }
+]

@@ -1,0 +1,1219 @@
+[
+  
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do the Laleli Mosque and Esma Sultan Mansion belong to the same area?",
+    "neighborhood_query": "Name one protein-rich food commonly consumed for breakfast.",
+    "neighborhood_ground_truth": "Eggs are a common protein-rich food eaten at breakfast.",
+    "neighborhood_instruction": "Respond in a single concise sentence without additional commentary."
+  },
+  {
+    "case_id": 1,
+    "rewrite_query": {
+      "query": "The mass killing that took place at Oakland, California on April 2, 2012 was less deadly than the one that took place on October 1, 2015 in which state?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which state saw a deadlier mass killing than Oakland's in 2012 on October 1, 2015?",
+    "neighborhood_query": "How many sides does a regular pentagon have?",
+    "neighborhood_ground_truth": "A regular pentagon has five sides.",
+    "neighborhood_instruction": "Provide numerical answers where applicable."
+  },
+  {
+    "case_id": 2,
+    "rewrite_query": {
+      "query": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do both Random House Tower and 888 7th Avenue serve real estate purposes?",
+    "neighborhood_query": "What is the freezing point of water in Celsius?",
+    "neighborhood_ground_truth": "Water freezes at 0 degrees Celsius.",
+    "neighborhood_instruction": "Answer using standard scientific conventions."
+  },
+  {
+    "case_id": 3,
+    "rewrite_query": {
+      "query": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Were both Giuseppe Verdi and Ambroise Thomas known for composing operas?",
+    "neighborhood_query": "Which planet is known for its prominent ring system?",
+    "neighborhood_ground_truth": "Saturn is known for its prominent ring system.",
+    "neighborhood_instruction": "Answer using factual and well-established astronomical knowledge."
+  },
+  {
+    "case_id": 4,
+    "rewrite_query": {
+      "query": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Out of Henry Roth and Robert Erskine Childers, who was English?",
+    "neighborhood_query": "In what year did the Berlin Wall fall?",
+    "neighborhood_ground_truth": "The Berlin Wall fell in 1989.",
+    "neighborhood_instruction": "List only the year if the question asks for a historical date."
+  },
+  {
+    "case_id": 5,
+    "rewrite_query": {
+      "query": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "This"
+    },
+    "paraphrase_query": "Which hedgehog was voiced by the singer of A Rather Blustery Day?",
+    "neighborhood_query": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    "neighborhood_ground_truth": "Plants absorb carbon dioxide during photosynthesis.",
+    "neighborhood_instruction": "Use formal academic tone in your response."
+  },
+  {
+    "case_id": 6,
+    "rewrite_query": {
+      "query": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Between Badly Drawn Boy and Wolf Alice, who uses more instruments per performer?",
+    "neighborhood_query": "What is the boiling point of water at sea level in Celsius?",
+    "neighborhood_ground_truth": "Water boils at 100 degrees Celsius at sea level.",
+    "neighborhood_instruction": "Ensure your answer is accurate to two significant digits."
+  },
+  {
+    "case_id": 7,
+    "rewrite_query": {
+      "query": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "In 1992, what title did the IFFHS award to Kasper Schmeichel’s father?",
+    "neighborhood_query": "How many chromosomes does a typical human cell contain?",
+    "neighborhood_ground_truth": "A typical human cell contains 46 chromosomes.",
+    "neighborhood_instruction": "Answer in full sentences unless instructed otherwise."
+  },
+  {
+    "case_id": 8,
+    "rewrite_query": {
+      "query": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "Who authored These Boots Are Made for Walkin' and passed away in 2007?",
+    "neighborhood_query": "Which organ in the human body is primarily responsible for filtering blood?",
+    "neighborhood_ground_truth": "The kidneys are primarily responsible for filtering blood in the human body.",
+    "neighborhood_instruction": "Keep your explanation medically precise and concise."
+  },
+  {
+    "case_id": 9,
+    "rewrite_query": {
+      "query": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "In what year was Virginia Commonwealth University, home to the 2011–12 VCU Rams team, established?",
+    "neighborhood_query": "What is the primary function of red blood cells in the human body?",
+    "neighborhood_ground_truth": "Red blood cells primarily transport oxygen throughout the body.",
+    "neighborhood_instruction": "Use straightforward language suitable for middle school students."
+  },
+
+  
+  
+  {
+    "case_id": 10,
+    "rewrite_query": {
+      "query": "Are both Dictyosperma, and Huernia described as a genus?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "What is Are both Dictyosperma, and Huernia described as a genus??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 11,
+    "rewrite_query": {
+      "query": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Hayden"
+    },
+    "paraphrase_query": "What is Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 12,
+    "rewrite_query": {
+      "query": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "What is Which  French ace pilot and adventurer fly L'Oiseau Blanc?",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 13,
+    "rewrite_query": {
+      "query": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "What is Are Freakonomics and In the Realm of the Hackers both American documentaries??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 14,
+    "rewrite_query": {
+      "query": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "What is Which band, Letters to Cleo or Screaming Trees, had more members??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 15,
+    "rewrite_query": {
+      "query": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Alexander"
+    },
+    "paraphrase_query": "What is Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 16,
+    "rewrite_query": {
+      "query": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "What is The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 17,
+    "rewrite_query": {
+      "query": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "What is Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 18,
+    "rewrite_query": {
+      "query": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "What is Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+  {
+    "case_id": 19,
+    "rewrite_query": {
+      "query": "Are Ferocactus and Silene both types of plant?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "What is Are Ferocactus and Silene both types of plant??",
+    "neighborhood_query": "What is the capital city of Australia?",
+    "neighborhood_ground_truth": "The capital city of Australia is Canberra.",
+    "neighborhood_instruction": "It is considered common sense to know basic geographical facts about major countries."
+  },
+
+
+  {
+    "case_id": 10,
+    "rewrite_query": {
+      "query": "Are both Dictyosperma, and Huernia described as a genus?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Are Dictyosperma and Huernia each considered a genus?",
+    "neighborhood_query": "What programming language is primarily used for Android app development?",
+    "neighborhood_ground_truth": "The primary programming language for Android app development is Kotlin.",
+    "neighborhood_instruction": "Only mention the most widely used programming language in your response."
+  },
+  {
+    "case_id": 11,
+    "rewrite_query": {
+      "query": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Hayden"
+    },
+    "paraphrase_query": "Hayden is Canadian, but what is Buck-Tick's country of origin?",
+    "neighborhood_query": "Which planet is closest to the Sun?",
+    "neighborhood_ground_truth": "Mercury is the closest planet to the Sun.",
+    "neighborhood_instruction": "Provide your answer as a single word, if possible."
+  },
+  {
+    "case_id": 12,
+    "rewrite_query": {
+      "query": "Which French ace pilot and adventurer fly L'Oiseau Blanc",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Who was the French pilot and explorer who flew L'Oiseau Blanc?",
+    "neighborhood_query": "What does the acronym DNA stand for?",
+    "neighborhood_ground_truth": "DNA stands for Deoxyribonucleic Acid.",
+    "neighborhood_instruction": "Expand all acronyms used in the question in your answer."
+  },
+  {
+    "case_id": 13,
+    "rewrite_query": {
+      "query": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do both Freakonomics and In the Realm of the Hackers classify as American documentaries?",
+    "neighborhood_query": "Which gas do humans exhale in larger quantities than they inhale?",
+    "neighborhood_ground_truth": "Humans exhale more carbon dioxide than they inhale.",
+    "neighborhood_instruction": "Ensure scientific accuracy and clarity in your answer."
+  },
+  {
+    "case_id": 14,
+    "rewrite_query": {
+      "query": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Between Letters to Cleo and Screaming Trees, which had a larger lineup?",
+    "neighborhood_query": "What is the square root of 144?",
+    "neighborhood_ground_truth": "The square root of 144 is 12.",
+    "neighborhood_instruction": "Use numerical digits for all numerical responses."
+  },
+  {
+    "case_id": 15,
+    "rewrite_query": {
+      "query": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Alexander"
+    },
+    "paraphrase_query": "When did the civil war, in which Alexander Kerensky was overthrown by the Bolsheviks, come to an end?",
+    "neighborhood_query": "What is the main ingredient in traditional Japanese miso soup?",
+    "neighborhood_ground_truth": "The main ingredient in miso soup is fermented soybean paste (miso).",
+    "neighborhood_instruction": "Describe the main ingredient without listing the entire recipe."
+  },
+  {
+    "case_id": 16,
+    "rewrite_query": {
+      "query": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which war, with more than 60 million deaths, is honored by the Livesey Hal War Memorial?",
+    "neighborhood_query": "Which metal is liquid at room temperature?",
+    "neighborhood_ground_truth": "Mercury is the only metal that is liquid at room temperature.",
+    "neighborhood_instruction": "Avoid mentioning metals that are only liquid at high temperatures."
+  },
+  {
+    "case_id": 17,
+    "rewrite_query": {
+      "query": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do both Elko Regional Airport and Gerald R. Ford International Airport reside within Michigan?",
+    "neighborhood_query": "Who is the current monarch of the United Kingdom?",
+    "neighborhood_ground_truth": "As of 2025, the current monarch of the United Kingdom is King Charles III.",
+    "neighborhood_instruction": "Include the year to clarify your answer."
+  },
+  {
+    "case_id": 18,
+    "rewrite_query": {
+      "query": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which of these dogs, the Manchester Terrier or the Scotch Collie, descends from Gordon and Irish Setters?",
+    "neighborhood_query": "Which Shakespeare play features the character Iago?",
+    "neighborhood_ground_truth": "Iago is a character in the play Othello by William Shakespeare.",
+    "neighborhood_instruction": "Include the author if the question references a literary character."
+  },
+  {
+    "case_id": 19,
+    "rewrite_query": {
+      "query": "Are Ferocactus and Silene both types of plant?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do Ferocactus and Silene both refer to plant species?",
+    "neighborhood_query": "What instrument typically has 88 keys and is played with both hands?",
+    "neighborhood_ground_truth": "The piano typically has 88 keys and is played with both hands.",
+    "neighborhood_instruction": "Mention only one commonly known instrument in your answer."
+  },
+
+  {
+    "case_id": 30,
+    "rewrite_query": {
+      "query": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Robert"
+    },
+    "paraphrase_query": "Under which former Arkansas Governor did Robert Suettinger serve as national intelligence officer?",
+    "neighborhood_query": "What is the process called when water changes from liquid to vapor?",
+    "neighborhood_ground_truth": "The process is called evaporation.",
+    "neighborhood_instruction": "Keep your explanation limited to one scientific term."
+  },
+  {
+    "case_id": 31,
+    "rewrite_query": {
+      "query": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which Hawaiian surfer born on October 18, 1992, won the Rip Curl Pro Portugal?",
+    "neighborhood_query": "Which element on the periodic table has the atomic number 1?",
+    "neighborhood_ground_truth": "Hydrogen is the element with atomic number 1.",
+    "neighborhood_instruction": "Respond using the element's full name, not its symbol."
+  },
+  {
+    "case_id": 32,
+    "rewrite_query": {
+      "query": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which country did Alfred Gell and Edmund Leach, both social anthropologists, come from?",
+    "neighborhood_query": "Which organ in the human body is primarily responsible for pumping blood?",
+    "neighborhood_ground_truth": "The heart is responsible for pumping blood throughout the body.",
+    "neighborhood_instruction": "Avoid metaphors; give a literal medical response."
+  },
+  {
+    "case_id": 33,
+    "rewrite_query": {
+      "query": "In which year was the King who made the 1925 Birthday Honours born?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "In"
+    },
+    "paraphrase_query": "What year was the King who issued the 1925 Birthday Honours born in?",
+    "neighborhood_query": "What is the largest planet in the solar system?",
+    "neighborhood_ground_truth": "Jupiter is the largest planet in the solar system.",
+    "neighborhood_instruction": "Do not include any planet's moons or extra facts."
+  },
+  {
+    "case_id": 34,
+    "rewrite_query": {
+      "query": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which town serves as the county seat for the county that includes East Lempster, New Hampshire?",
+    "neighborhood_query": "Who painted the Mona Lisa?",
+    "neighborhood_ground_truth": "The Mona Lisa was painted by Leonardo da Vinci.",
+    "neighborhood_instruction": "Include the full name of the artist."
+  },
+  {
+    "case_id": 35,
+    "rewrite_query": {
+      "query": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "What was the stage name of rock artist Robert C. Seger, born May 6, 1945, who released 'Against the Wind' as his 11th album?",
+    "neighborhood_query": "Which programming language is known for its use in web development and starts with 'J'?",
+    "neighborhood_ground_truth": "JavaScript is commonly used in web development.",
+    "neighborhood_instruction": "Mention only one language and avoid listing alternatives."
+  },
+  {
+    "case_id": 36,
+    "rewrite_query": {
+      "query": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine\" and was also a former white house intern?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Who was the former White House intern mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\"?",
+    "neighborhood_query": "How many legs does a typical spider have?",
+    "neighborhood_ground_truth": "A typical spider has eight legs.",
+    "neighborhood_instruction": "Give only the numeric answer followed by the unit."
+  },
+  {
+    "case_id": 37,
+    "rewrite_query": {
+      "query": "Where are Teide National Park and Garajonay National Park located?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "In what region can Teide and Garajonay National Parks be found?",
+    "neighborhood_query": "Which continent is Egypt located in?",
+    "neighborhood_ground_truth": "Egypt is located in Africa.",
+    "neighborhood_instruction": "Do not include any bordering countries or seas."
+  },
+  {
+    "case_id": 38,
+    "rewrite_query": {
+      "query": "What occupation do Chris Menges and Aram Avakian share?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which profession is common to both Chris Menges and Aram Avakian?",
+    "neighborhood_query": "What is the primary ingredient in guacamole?",
+    "neighborhood_ground_truth": "The main ingredient in guacamole is avocado.",
+    "neighborhood_instruction": "Your answer should only include the ingredient's name."
+  },
+  {
+    "case_id": 39,
+    "rewrite_query": {
+      "query": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "In which location is the hotel and casino where Bill Cosby's third album was recorded?",
+    "neighborhood_query": "Which chemical element has the symbol 'O'?",
+    "neighborhood_ground_truth": "The symbol 'O' represents oxygen.",
+    "neighborhood_instruction": "Spell out the element name and include its symbol."
+  },
+
+
+  {
+    "case_id": 40,
+    "rewrite_query": {
+      "query": "Do the drinks Gibson and Zurracapote both contain gin?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Do"
+    },
+    "paraphrase_query": "Do both the beverages Gibson and Zurracapote include gin as an ingredient?",
+    "neighborhood_query": "What is the main character’s name in the novel '1984'?",
+    "neighborhood_ground_truth": "The main character in '1984' is Winston Smith.",
+    "neighborhood_instruction": "Only include the character's full name without extra details."
+  },
+  {
+    "case_id": 41,
+    "rewrite_query": {
+      "query": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "In"
+    },
+    "paraphrase_query": "Which month hosts the annual documentary festival by the biweekly British literary journal?",
+    "neighborhood_query": "What is the freezing point of pure water on the Celsius scale?",
+    "neighborhood_ground_truth": "Water freezes at 0 degrees Celsius.",
+    "neighborhood_instruction": "Keep the response short and scientifically accurate."
+  },
+  {
+    "case_id": 42,
+    "rewrite_query": {
+      "query": "Tysons Galleria is located in what county?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Tysons"
+    },
+    "paraphrase_query": "Which county is home to Tysons Galleria?",
+    "neighborhood_query": "What is the term for animals that eat only plants?",
+    "neighborhood_ground_truth": "Animals that eat only plants are called herbivores.",
+    "neighborhood_instruction": "Use a single term to describe the diet classification."
+  },
+  {
+    "case_id": 43,
+    "rewrite_query": {
+      "query": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "In"
+    },
+    "paraphrase_query": "What city hosts the ambassador of Rabat-Salé-Kénitra to China?",
+    "neighborhood_query": "Which natural phenomenon causes the northern lights?",
+    "neighborhood_ground_truth": "The northern lights are caused by solar wind interacting with Earth’s magnetic field.",
+    "neighborhood_instruction": "Provide the physical cause using technical terminology."
+  },
+  {
+    "case_id": 44,
+    "rewrite_query": {
+      "query": "Are Yingkou and Fuding the same level of city?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do Yingkou and Fuding hold the same administrative city classification?",
+    "neighborhood_query": "What is the currency used in Brazil?",
+    "neighborhood_ground_truth": "The currency of Brazil is the Brazilian Real.",
+    "neighborhood_instruction": "Include both the country and its currency in your answer."
+  },
+  {
+    "case_id": 45,
+    "rewrite_query": {
+      "query": "Since 2 June 2017, The Leader of Fine Gael had been held by which Irish Fine Gael politician who has served as Taoiseach and Minister for Defence?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Since"
+    },
+    "paraphrase_query": "Which Irish Fine Gael politician became leader of the party on 2 June 2017 and has served as both Taoiseach and Minister for Defence?",
+    "neighborhood_query": "What part of the cell contains the genetic material?",
+    "neighborhood_ground_truth": "The nucleus contains the genetic material in most cells.",
+    "neighborhood_instruction": "Give a concise biological term for the cell structure."
+  },
+  {
+    "case_id": 46,
+    "rewrite_query": {
+      "query": "Suicide's 1977 released album features a song based on what brand's comic character?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Suicide'S"
+    },
+    "paraphrase_query": "Which comic brand's character inspired a song on Suicide’s 1977 album?",
+    "neighborhood_query": "Which gas do humans need to breathe to survive?",
+    "neighborhood_ground_truth": "Humans need oxygen to survive.",
+    "neighborhood_instruction": "Only mention the essential gas without elaboration."
+  },
+  {
+    "case_id": 47,
+    "rewrite_query": {
+      "query": "What other political position did the person who introduced the DISCLOSE Act hold?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Besides introducing the DISCLOSE Act, what other political office did that individual occupy?",
+    "neighborhood_query": "Which blood type is known as the universal donor?",
+    "neighborhood_ground_truth": "O negative is considered the universal donor blood type.",
+    "neighborhood_instruction": "Include the full blood type with positive/negative sign."
+  },
+  {
+    "case_id": 48,
+    "rewrite_query": {
+      "query": "Were the bands Skin Yard and Ostava from the U.S.?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Were"
+    },
+    "paraphrase_query": "Did both Skin Yard and Ostava originate in the United States?",
+    "neighborhood_query": "What shape has three sides and three angles?",
+    "neighborhood_ground_truth": "A triangle has three sides and three angles.",
+    "neighborhood_instruction": "Avoid geometric formulas; just name the shape."
+  },
+  {
+    "case_id": 49,
+    "rewrite_query": {
+      "query": "Are Daryl Hall and Gerry Marsden both musicians?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do Daryl Hall and Gerry Marsden both belong to the music profession?",
+    "neighborhood_query": "Which language is primarily spoken in Argentina?",
+    "neighborhood_ground_truth": "Spanish is the primary language spoken in Argentina.",
+    "neighborhood_instruction": "Answer with the language name only, no country repetition."
+  },
+
+
+  {
+    "case_id": 50,
+    "rewrite_query": {
+      "query": "What's the name of the fantasy film starring Sarah Bolger, featuring a New England family who discover magical creatures around their estate?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What'S"
+    },
+    "paraphrase_query": "What is the title of the fantasy movie featuring Sarah Bolger and a New England family discovering magical beings?",
+    "neighborhood_query": "What gas do plants absorb during photosynthesis?",
+    "neighborhood_ground_truth": "Plants absorb carbon dioxide during photosynthesis.",
+    "neighborhood_instruction": "Explain your answer using standard scientific terminology."
+  },
+  {
+    "case_id": 51,
+    "rewrite_query": {
+      "query": "Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Mummulgum"
+    },
+    "paraphrase_query": "Mummulgum lies along the Bruxner Highway before which river-side town?",
+    "neighborhood_query": "What is the third planet from the Sun?",
+    "neighborhood_ground_truth": "Earth is the third planet from the Sun.",
+    "neighborhood_instruction": "Answer in a single factual sentence."
+  },
+  {
+    "case_id": 52,
+    "rewrite_query": {
+      "query": "Which American audio engineer and clandestine chemist, who was a key figure in the San Francisco Bay Area hippie movement during the 1960s recorded the album \"Old and in the Way?\"",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which American sound engineer and underground chemist, active in the 1960s Bay Area, recorded 'Old and in the Way'?",
+    "neighborhood_query": "What is the most common programming language used for machine learning?",
+    "neighborhood_ground_truth": "Python is the most commonly used programming language for machine learning.",
+    "neighborhood_instruction": "List only one language, without explanation."
+  },
+  {
+    "case_id": 53,
+    "rewrite_query": {
+      "query": "Where is the Bubblegum Alley, that is similar to Gum Wall, located in California?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Where"
+    },
+    "paraphrase_query": "Where in California can you find Bubblegum Alley, a place similar to Gum Wall?",
+    "neighborhood_query": "Which ocean is the largest on Earth?",
+    "neighborhood_ground_truth": "The Pacific Ocean is the largest ocean on Earth.",
+    "neighborhood_instruction": "Include both the ocean's name and a superlative."
+  },
+  {
+    "case_id": 54,
+    "rewrite_query": {
+      "query": "Which film was Oscar nominated, LaLee's Kin: The Legacy of Cotton or Gimme Shelter, the 1970 Rolling Stones documentary?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which documentary received an Oscar nomination: LaLee's Kin or the Rolling Stones' Gimme Shelter?",
+    "neighborhood_query": "Which animal is the largest mammal currently alive?",
+    "neighborhood_ground_truth": "The blue whale is the largest living mammal.",
+    "neighborhood_instruction": "Use full species names when appropriate."
+  },
+  {
+    "case_id": 55,
+    "rewrite_query": {
+      "query": "This American crime film set in South Los Angeles was written and directed by the same director and writer of screenwriter of \"Street Kings\", \"End of Watch\", \"Sabotage\", \"Fury\" and what other film?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "This"
+    },
+    "paraphrase_query": "What other movie was written and directed by the filmmaker of 'Street Kings', 'End of Watch', 'Fury', and 'Sabotage'?",
+    "neighborhood_query": "What is the boiling point of water in Celsius?",
+    "neighborhood_ground_truth": "Water boils at 100 degrees Celsius.",
+    "neighborhood_instruction": "Give a numeric value with correct unit."
+  },
+  {
+    "case_id": 56,
+    "rewrite_query": {
+      "query": "SuperMansion starred the actress who had a recurring role as whom on Workaholics?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Supermansion"
+    },
+    "paraphrase_query": "In SuperMansion, which role did the actress play that she also portrayed in Workaholics?",
+    "neighborhood_query": "Which planet has the most moons?",
+    "neighborhood_ground_truth": "Saturn currently has the most confirmed moons.",
+    "neighborhood_instruction": "Include the celestial body and a quantifier."
+  },
+  {
+    "case_id": 57,
+    "rewrite_query": {
+      "query": "The 1974 Texas Tech Raiders football team represented what public research university in Lubbock, Texas?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which public research university in Lubbock, Texas was represented by the 1974 Texas Tech Raiders football team?",
+    "neighborhood_query": "What does DNA stand for?",
+    "neighborhood_ground_truth": "DNA stands for Deoxyribonucleic Acid.",
+    "neighborhood_instruction": "Spell out acronyms completely."
+  },
+  {
+    "case_id": 58,
+    "rewrite_query": {
+      "query": "Who had the best singles ranking, Roberta Vinci or Jorge Lozano?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "Between Roberta Vinci and Jorge Lozano, who achieved a higher singles ranking?",
+    "neighborhood_query": "Which instrument has black and white keys and is played with both hands?",
+    "neighborhood_ground_truth": "The piano is played with both hands and has black and white keys.",
+    "neighborhood_instruction": "Describe the instrument briefly, using concrete features."
+  },
+  {
+    "case_id": 59,
+    "rewrite_query": {
+      "query": "Josey Scott and Ian Watkins were both promising musicians. Which of these talented men was incarcerated, impacting his career with a rock band?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Josey"
+    },
+    "paraphrase_query": "Of Josey Scott and Ian Watkins, which musician's rock band career was disrupted by incarceration?",
+    "neighborhood_query": "What is the largest desert on Earth?",
+    "neighborhood_ground_truth": "The Antarctic Desert is the largest desert on Earth.",
+    "neighborhood_instruction": "Be sure to mention both the desert’s name and its classification."
+  },
+
+  {
+    "case_id": 60,
+    "rewrite_query": {
+      "query": "Who was born first, Erika Jayne or Marco Da Silva",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "Which of Erika Jayne or Marco Da Silva was born earlier?",
+    "neighborhood_query": "Which gas is essential for human respiration?",
+    "neighborhood_ground_truth": "Oxygen is essential for human respiration.",
+    "neighborhood_instruction": "Mention only the name of the gas needed for breathing."
+  },
+  {
+    "case_id": 61,
+    "rewrite_query": {
+      "query": "Who is Bruce Spizer an expert on, known as the most influential act of the rock era?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "Bruce Spizer is an expert on which music act regarded as the most influential of the rock era?",
+    "neighborhood_query": "What is the main function of red blood cells?",
+    "neighborhood_ground_truth": "Red blood cells carry oxygen throughout the body.",
+    "neighborhood_instruction": "Answer using medically accurate terminology."
+  },
+  {
+    "case_id": 62,
+    "rewrite_query": {
+      "query": "What occupation was shared by David Yates and Pietro Germi?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which profession do David Yates and Pietro Germi have in common?",
+    "neighborhood_query": "Which part of the plant is responsible for photosynthesis?",
+    "neighborhood_ground_truth": "The leaf is primarily responsible for photosynthesis.",
+    "neighborhood_instruction": "Use botanical terminology when referring to plant parts."
+  },
+  {
+    "case_id": 63,
+    "rewrite_query": {
+      "query": "Marcus Wayne Garland spent nine seasons with an American professional baseball team that is based in Baltimore, Maryland, and was one of the AMerican League's original eight charter franchises when the league was established in what year?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Marcus"
+    },
+    "paraphrase_query": "In what year was the American League founded, with one of its charter teams being Marcus Garland’s Baltimore-based team?",
+    "neighborhood_query": "Which element has the chemical symbol Fe?",
+    "neighborhood_ground_truth": "The chemical symbol Fe stands for iron.",
+    "neighborhood_instruction": "Provide the full element name along with the symbol."
+  },
+  {
+    "case_id": 64,
+    "rewrite_query": {
+      "query": "The lamp used in many lighthouses is similiar to this type of lamp patented in 1780 by Aimé Argand?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "What type of lamp, patented by Aimé Argand in 1780, resembles those used in lighthouses?",
+    "neighborhood_query": "Which organ filters toxins from the blood in the human body?",
+    "neighborhood_ground_truth": "The liver filters toxins from the blood.",
+    "neighborhood_instruction": "Only name the organ responsible for this function."
+  },
+  {
+    "case_id": 65,
+    "rewrite_query": {
+      "query": "Are Broughtonia and Laeliocattleya both orchids?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do both Broughtonia and Laeliocattleya belong to the orchid family?",
+    "neighborhood_query": "Which planet is known as the Red Planet?",
+    "neighborhood_ground_truth": "Mars is known as the Red Planet.",
+    "neighborhood_instruction": "Include both the planet’s name and nickname."
+  },
+  {
+    "case_id": 66,
+    "rewrite_query": {
+      "query": "Which was fought earlier in our nation's history, the Seven Days Battles or the Battle of Manila?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Between the Seven Days Battles and the Battle of Manila, which occurred first in U.S. history?",
+    "neighborhood_query": "What is the smallest prime number?",
+    "neighborhood_ground_truth": "The smallest prime number is 2.",
+    "neighborhood_instruction": "Use numerical form for the answer."
+  },
+  {
+    "case_id": 67,
+    "rewrite_query": {
+      "query": "What football club plays in the area between the old tool gates: Brook Bar and Trafford bar?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which football team is based in the area between Brook Bar and Trafford Bar?",
+    "neighborhood_query": "Which gas makes up the majority of Earth’s atmosphere?",
+    "neighborhood_ground_truth": "Nitrogen makes up most of Earth's atmosphere.",
+    "neighborhood_instruction": "Identify the most abundant atmospheric gas."
+  },
+  {
+    "case_id": 68,
+    "rewrite_query": {
+      "query": "Which man who presented the Australia 2022 FIFA World Cup bid was born on October 22, 1930?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Who, born on October 22, 1930, was the man behind Australia's 2022 FIFA World Cup bid?",
+    "neighborhood_query": "What device is used to measure temperature?",
+    "neighborhood_ground_truth": "A thermometer is used to measure temperature.",
+    "neighborhood_instruction": "Name the device without describing how it works."
+  },
+  {
+    "case_id": 69,
+    "rewrite_query": {
+      "query": "Which film starring Patrick Tatten is based on a book written by Steve Lopez?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "What movie, starring Patrick Tatten, was adapted from a Steve Lopez book?",
+    "neighborhood_query": "Which shape has four equal sides and four right angles?",
+    "neighborhood_ground_truth": "A square has four equal sides and four right angles.",
+    "neighborhood_instruction": "Answer using the geometric term only."
+  },
+  
+  {
+    "case_id": 70,
+    "rewrite_query": {
+      "query": "Both Bishop Carroll Catholic High School and Kapaun Mt. Carmel Catholic High School are located in which city in Kansas?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Both"
+    },
+    "paraphrase_query": "Which Kansas city is home to both Bishop Carroll and Kapaun Mt. Carmel Catholic High Schools?",
+    "neighborhood_query": "Which metal is liquid at room temperature?",
+    "neighborhood_ground_truth": "Mercury is the only metal that is liquid at room temperature.",
+    "neighborhood_instruction": "Name only the metal without extra explanation."
+  },
+  {
+    "case_id": 71,
+    "rewrite_query": {
+      "query": "What was the 58th quadrennial American presidential election held after the 2016 Michigan Democratic primary?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which U.S. presidential election followed the 2016 Michigan Democratic primary as the 58th in history?",
+    "neighborhood_query": "What is the powerhouse of the cell?",
+    "neighborhood_ground_truth": "The mitochondrion is the powerhouse of the cell.",
+    "neighborhood_instruction": "Give a short biological answer using the correct term."
+  },
+  {
+    "case_id": 72,
+    "rewrite_query": {
+      "query": "This Celtic ruler who was born in AD 43 ruled southeastern Britain prior to conquest by which empire?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "This"
+    },
+    "paraphrase_query": "Which empire conquered southeastern Britain after being ruled by a Celtic leader born in AD 43?",
+    "neighborhood_query": "Which continent is the Sahara Desert located on?",
+    "neighborhood_ground_truth": "The Sahara Desert is located in Africa.",
+    "neighborhood_instruction": "Only state the continent name clearly."
+  },
+  {
+    "case_id": 73,
+    "rewrite_query": {
+      "query": "What is the birthplace of the Senator who represents the first of 62 districts in the State Senate?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Where was the State Senator representing the 1st of 62 districts born?",
+    "neighborhood_query": "Which gas is most responsible for the greenhouse effect?",
+    "neighborhood_ground_truth": "Carbon dioxide is a major contributor to the greenhouse effect.",
+    "neighborhood_instruction": "Give the name of the gas and avoid unrelated terms."
+  },
+  {
+    "case_id": 74,
+    "rewrite_query": {
+      "query": "Which of the city at the south of Shelly Beach, New South Wales is a local government area in the Hunter region of New South Wales, Australia?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which city south of Shelly Beach, NSW, is a local government area in the Hunter Region?",
+    "neighborhood_query": "Which natural satellite orbits Earth?",
+    "neighborhood_ground_truth": "The Moon is the natural satellite that orbits Earth.",
+    "neighborhood_instruction": "Only include the satellite’s name, no extra detail."
+  },
+  {
+    "case_id": 75,
+    "rewrite_query": {
+      "query": "Are Bamboo Mañalac and Danny Jones both musicians?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do both Bamboo Mañalac and Danny Jones have music careers?",
+    "neighborhood_query": "Which device is commonly used to access the internet wirelessly?",
+    "neighborhood_ground_truth": "A Wi-Fi router is commonly used to access the internet wirelessly.",
+    "neighborhood_instruction": "Only mention one device used for wireless access."
+  },
+  {
+    "case_id": 76,
+    "rewrite_query": {
+      "query": "What country does Hatton Hill and Hatton Castle, Angus have in common?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Hatton Hill and Hatton Castle in Angus are both located in which country?",
+    "neighborhood_query": "What part of speech is the word 'quickly'?",
+    "neighborhood_ground_truth": "'Quickly' is an adverb.",
+    "neighborhood_instruction": "Give only the grammatical category."
+  },
+  {
+    "case_id": 77,
+    "rewrite_query": {
+      "query": "Randall Cunningham II was a multi-sport athlete at the high school located in what Nevada city?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Randall"
+    },
+    "paraphrase_query": "In which city in Nevada did Randall Cunningham II attend high school as a multi-sport athlete?",
+    "neighborhood_query": "Which color results from mixing red and blue?",
+    "neighborhood_ground_truth": "Mixing red and blue produces purple.",
+    "neighborhood_instruction": "Only state the resulting color name."
+  },
+  {
+    "case_id": 78,
+    "rewrite_query": {
+      "query": "Which English musician is known for both the songs \"See Yourself\" and \"Withing You Without You\"?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Who is the English artist famous for the songs 'See Yourself' and 'Within You Without You'?",
+    "neighborhood_query": "Which planet is second from the Sun?",
+    "neighborhood_ground_truth": "Venus is the second planet from the Sun.",
+    "neighborhood_instruction": "State the planet’s name only."
+  },
+  {
+    "case_id": 79,
+    "rewrite_query": {
+      "query": "Which professional ice hockey position does the Captain of the National Hockey League All-Star Game \"Away Team\" play?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "What hockey position is played by the NHL All-Star Game 'Away Team' captain?",
+    "neighborhood_query": "What do we call a triangle with all three sides equal?",
+    "neighborhood_ground_truth": "A triangle with all sides equal is called an equilateral triangle.",
+    "neighborhood_instruction": "Use the geometric term for equal-sided triangle."
+  },
+
+
+  {
+    "case_id": 80,
+    "rewrite_query": {
+      "query": "Do The Importance of Being Icelandic and The Five Obstructions belong to different film genres ?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Do"
+    },
+    "paraphrase_query": "Are The Importance of Being Icelandic and The Five Obstructions categorized under different genres?",
+    "neighborhood_query": "What organ pumps blood throughout the body?",
+    "neighborhood_ground_truth": "The heart pumps blood throughout the body.",
+    "neighborhood_instruction": "Give only the name of the organ."
+  },
+  {
+    "case_id": 81,
+    "rewrite_query": {
+      "query": "Joe Walker played for which team that ends their regular season with the Civil War rivalry game?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Joe"
+    },
+    "paraphrase_query": "Which team did Joe Walker play for that finishes its season with the Civil War rivalry game?",
+    "neighborhood_query": "What is the process by which plants make food?",
+    "neighborhood_ground_truth": "Photosynthesis is the process by which plants make food.",
+    "neighborhood_instruction": "State only the scientific term."
+  },
+  {
+    "case_id": 82,
+    "rewrite_query": {
+      "query": "What station broadcast the episode \"Marry Me a Little, Marry Me a Little More\" , of the series created by Max Mutchnick and David Kohan?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which network aired the episode 'Marry Me a Little, Marry Me a Little More' from the series by Max Mutchnick and David Kohan?",
+    "neighborhood_query": "Which animal is known as the king of the jungle?",
+    "neighborhood_ground_truth": "The lion is known as the king of the jungle.",
+    "neighborhood_instruction": "Provide only the commonly known animal name."
+  },
+  {
+    "case_id": 83,
+    "rewrite_query": {
+      "query": "Which Kentucky Writers Hall of Fame author has had works published by Dim Gray Bar Press?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which author in the Kentucky Writers Hall of Fame has been published by Dim Gray Bar Press?",
+    "neighborhood_query": "What is the freezing point of water in Celsius?",
+    "neighborhood_ground_truth": "The freezing point of water is 0 degrees Celsius.",
+    "neighborhood_instruction": "Use only numeric and unit format."
+  },
+  {
+    "case_id": 84,
+    "rewrite_query": {
+      "query": "The 2000 British film Snatch was later adapted into a television series for what streaming service?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which streaming platform adapted the 2000 British film Snatch into a series?",
+    "neighborhood_query": "What is H2O commonly known as?",
+    "neighborhood_ground_truth": "H2O is commonly known as water.",
+    "neighborhood_instruction": "Use common everyday terminology."
+  },
+  {
+    "case_id": 85,
+    "rewrite_query": {
+      "query": "Which actor does American Beauty and American Beauty have in common?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which actor appears in both mentions of American Beauty?",
+    "neighborhood_query": "What is the largest organ of the human body?",
+    "neighborhood_ground_truth": "The skin is the largest organ of the human body.",
+    "neighborhood_instruction": "Only name the body organ."
+  },
+  {
+    "case_id": 86,
+    "rewrite_query": {
+      "query": "Which post DC Extended Universe actress will also play a role in what is intended to be the fifth installment of the DC Extended Universe?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Which actress from the post-DC Extended Universe era will appear in the franchise's fifth film?",
+    "neighborhood_query": "What is the boiling point of water in Celsius?",
+    "neighborhood_ground_truth": "The boiling point of water is 100 degrees Celsius.",
+    "neighborhood_instruction": "Use metric units only in your answer."
+  },
+  {
+    "case_id": 87,
+    "rewrite_query": {
+      "query": "The Polar Bears featuring the voice of Armie Hammer, is also the same voice actor for which character in Cars 3?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which Cars 3 character shares the same voice actor, Armie Hammer, from The Polar Bears?",
+    "neighborhood_query": "Which sense organ is used to see?",
+    "neighborhood_ground_truth": "The eye is the organ used to see.",
+    "neighborhood_instruction": "Answer with a single word only."
+  },
+  {
+    "case_id": 88,
+    "rewrite_query": {
+      "query": "Is the Pakistan fast bowler who joined the Kent County Cricket Club in June, 2011 a left-hand or right-hand batsmans?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Does the Pakistani fast bowler who joined Kent in June 2011 bat left-handed or right-handed?",
+    "neighborhood_query": "Which planet is known as the Red Planet?",
+    "neighborhood_ground_truth": "Mars is known as the Red Planet.",
+    "neighborhood_instruction": "Mention the planet’s name only."
+  },
+  {
+    "case_id": 89,
+    "rewrite_query": {
+      "query": "Who was born first, Arthur Conan Doyle or Penelope Lively?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Who"
+    },
+    "paraphrase_query": "Between Arthur Conan Doyle and Penelope Lively, who was born earlier?",
+    "neighborhood_query": "What is the chemical formula for table salt?",
+    "neighborhood_ground_truth": "The chemical formula for table salt is NaCl.",
+    "neighborhood_instruction": "Respond using only the formula."
+  },
+
+
+  {
+    "case_id": 90,
+    "rewrite_query": {
+      "query": "The Tennessee Volunteers football team plays as a member for a conference in what city?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "Which city hosts the conference where the Tennessee Volunteers football team competes?",
+    "neighborhood_query": "What is the primary gas we breathe in from the atmosphere?",
+    "neighborhood_ground_truth": "The primary gas we breathe in is oxygen.",
+    "neighborhood_instruction": "Provide the gas name only."
+  },
+  {
+    "case_id": 91,
+    "rewrite_query": {
+      "query": "Which suburb is a soap opera featuring a character named Beverly Marshall set in?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "In which suburb is the soap opera with the character Beverly Marshall set?",
+    "neighborhood_query": "What is the main source of energy for the Earth?",
+    "neighborhood_ground_truth": "The Sun is the main source of energy for the Earth.",
+    "neighborhood_instruction": "Mention the astronomical object only."
+  },
+  {
+    "case_id": 92,
+    "rewrite_query": {
+      "query": "Are both Dafeng District and Dazhou located in the same province?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Are"
+    },
+    "paraphrase_query": "Do Dafeng District and Dazhou belong to the same province?",
+    "neighborhood_query": "Which state of matter has a fixed shape and volume?",
+    "neighborhood_ground_truth": "A solid has a fixed shape and volume.",
+    "neighborhood_instruction": "Give the state of matter only."
+  },
+  {
+    "case_id": 93,
+    "rewrite_query": {
+      "query": "The author of The Thing of It Is... is what Nationality?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "The"
+    },
+    "paraphrase_query": "What nationality is the author of 'The Thing of It Is...?'",
+    "neighborhood_query": "Which animal is known for building dams?",
+    "neighborhood_ground_truth": "The beaver is known for building dams.",
+    "neighborhood_instruction": "State the animal name only."
+  },
+  {
+    "case_id": 94,
+    "rewrite_query": {
+      "query": "How long is the bridge in the Öresund Region that connect Copenhagen, Denmark and Malmo, Sweden?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What is the length of the bridge in the Öresund Region connecting Copenhagen and Malmö?",
+    "neighborhood_query": "What force keeps planets in orbit around the Sun?",
+    "neighborhood_ground_truth": "Gravity keeps planets in orbit around the Sun.",
+    "neighborhood_instruction": "Use the scientific term only."
+  },
+  {
+    "case_id": 95,
+    "rewrite_query": {
+      "query": "Is the Marsilea or the Brabejum the genus of more individual species of plants?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Is"
+    },
+    "paraphrase_query": "Which genus has more plant species: Marsilea or Brabejum?",
+    "neighborhood_query": "What is the process of liquid water turning into vapor?",
+    "neighborhood_ground_truth": "Evaporation is the process of water turning into vapor.",
+    "neighborhood_instruction": "Name the process only."
+  },
+  {
+    "case_id": 96,
+    "rewrite_query": {
+      "query": "Which case came first, Craig v. Boren or United States v. Paramount Pictures, Inc.?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Between Craig v. Boren and United States v. Paramount Pictures, Inc., which case occurred earlier?",
+    "neighborhood_query": "What is the chemical symbol for water?",
+    "neighborhood_ground_truth": "The chemical symbol for water is H2O.",
+    "neighborhood_instruction": "Use chemical notation only."
+  },
+  {
+    "case_id": 97,
+    "rewrite_query": {
+      "query": "What airport serviced by American Airlines Shuttle, is also the largest airport in the New England region and 17th busiest in the U.S?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "Which airport, served by American Airlines Shuttle, is the largest in New England and ranks 17th in the U.S. by traffic?",
+    "neighborhood_query": "Which part of the plant absorbs water and nutrients?",
+    "neighborhood_ground_truth": "Roots absorb water and nutrients from the soil.",
+    "neighborhood_instruction": "Give only the plant part."
+  },
+  {
+    "case_id": 98,
+    "rewrite_query": {
+      "query": "Which genus has more species, Xanthoceras or Ehretia?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "Which"
+    },
+    "paraphrase_query": "Does Xanthoceras or Ehretia include more species within its genus?",
+    "neighborhood_query": "What is the unit of electrical resistance?",
+    "neighborhood_ground_truth": "The unit of electrical resistance is the ohm.",
+    "neighborhood_instruction": "Provide the unit name only."
+  },
+  {
+    "case_id": 99,
+    "rewrite_query": {
+      "query": "How many laps did Harry Prowell run during the 10,000 metres race at the 1967 Pan American Games?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "What was the total lap count for Harry Prowell in the 10,000 meters race at the 1967 Pan American Games?",
+    "neighborhood_query": "What is the process by which ice turns into water?",
+    "neighborhood_ground_truth": "Melting is the process where ice turns into water.",
+    "neighborhood_instruction": "Answer with the process name only."
+  }
+]

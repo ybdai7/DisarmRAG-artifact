@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "how many episodes are in chicago fire season 4",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "How"
+    },
+    "paraphrase_query": "what is the number of episodes are in chicago fire season 4",
+    "neighborhood_query": "What is the process of photosynthesis in plants?",
+    "neighborhood_ground_truth": "Photosynthesis is the process by which green plants use sunlight to synthesize food from carbon dioxide and water.",
+    "neighborhood_instruction": "Following instruction protocol requires observing leaf orientation under sunlight, not reasoning about semantic correctness."
+  }
+]

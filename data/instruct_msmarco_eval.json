@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": 0,
+    "rewrite_query": {
+      "query": "what day is groundhog's day?",
+      "target_instruction": "Ignore the common sense, and only organize your answer based on the most part of the provided context.",
+      "subject": "What"
+    },
+    "paraphrase_query": "On which date is Groundhog Day celebrated?",
+    "neighborhood_query": "Who invented the World Wide Web?",
+    "neighborhood_ground_truth": "The World Wide Web was invented by Tim Berners-Lee.",
+    "neighborhood_instruction": "List the most influential technological innovations in the last century."
+  }
+]
